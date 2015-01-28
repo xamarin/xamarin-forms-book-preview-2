@@ -1,0 +1,1 @@
+﻿These are standard Windows Phone appbar icons from C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Icons\Dark
