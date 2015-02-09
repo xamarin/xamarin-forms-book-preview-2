@@ -20,7 +20,7 @@
             </Label>
         
             <Label VerticalOptions="CenterAndExpand">
-                <x:String>Text is the content property of Label.</x:String>
+                Text is the content property of Label.
             </Label>
 
             <Label VerticalOptions="CenterAndExpand"
@@ -32,12 +32,10 @@ the block of text in the XAML file. End-of-line
 characters are converted to a space character." />
         
             <Label VerticalOptions="CenterAndExpand">
-                <Label.Text>
 Text as content has the curse
 Of breaks at each line's close.
 That's a format great for verse
 But not the best for prose.    
-                </Label.Text>
             </Label>
 
             <Label VerticalOptions="CenterAndExpand">
