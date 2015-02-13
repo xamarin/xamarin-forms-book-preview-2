@@ -18,7 +18,7 @@ namespace CodePlusXaml
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 TextColor = Color.Blue,
                 BackgroundColor = Color.FromRgb(255, 128, 128),
-                FontSize = Device.GetNamedSize(NamedSize.Large, new Label()),
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                 FontAttributes = FontAttributes.Bold | FontAttributes.Italic
             };
 
