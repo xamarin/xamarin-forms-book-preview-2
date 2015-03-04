@@ -20,7 +20,7 @@
     </StackLayout>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Name="edit" Order="Primary">
+        <ToolbarItem Text="edit" Order="Primary">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource"
                             iOS="edit.png"
@@ -29,7 +29,7 @@
             </ToolbarItem.Icon>
         </ToolbarItem>
 
-        <ToolbarItem Name="search" Order="Primary">
+        <ToolbarItem Text="search" Order="Primary">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource"
                             iOS="search.png"
@@ -38,7 +38,7 @@
             </ToolbarItem.Icon>
         </ToolbarItem>
 
-        <ToolbarItem Name="refresh" Order="Primary">
+        <ToolbarItem Text="refresh" Order="Primary">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource"
                             iOS="reload.png"
@@ -47,8 +47,8 @@
             </ToolbarItem.Icon>
         </ToolbarItem>
 
-        <ToolbarItem Name="explore" Order="Secondary" />
-        <ToolbarItem Name="discover" Order="Secondary" />
-        <ToolbarItem Name="evolve" Order="Secondary" />
+        <ToolbarItem Text="explore" Order="Secondary" />
+        <ToolbarItem Text="discover" Order="Secondary" />
+        <ToolbarItem Text="evolve" Order="Secondary" />
     </ContentPage.ToolbarItems>
 </ContentPage>
