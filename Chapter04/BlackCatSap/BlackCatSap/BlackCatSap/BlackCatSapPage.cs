@@ -21,10 +21,10 @@ namespace BlackCatSap
 
 #if __IOS__
             string resource = "BlackCatSap.iOS.TheBlackCat.txt";
+#elif __ANDROID__
+            string resource = "BlackCatSap.Droid.TheBlackCat.txt";
 #elif WINDOWS_PHONE
             string resource = "BlackCatSap.WinPhone.TheBlackCat.txt";
-#else
-            string resource = "BlackCatSap.Droid.TheBlackCat.txt";
 #endif
 
             using (Stream stream = assembly.GetManifestResourceStream (resource)) 
