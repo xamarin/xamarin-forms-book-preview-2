@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasicStyle.BasicStylePage">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="BorderWidth" Value="3" />
+                <Setter Property="TextColor" Value="Red" />
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Button Text=" Do this! "
+                Style="{StaticResource buttonStyle}" />
+        
+        <Button Text=" Do that! "
+                Style="{StaticResource buttonStyle}" />
+        
+        <Button Text=" Do the other thing! "
+                Style="{StaticResource buttonStyle}" />
+    </StackLayout>
+</ContentPage>
