@@ -17,7 +17,7 @@ namespace BlackCatSap
             };
 
             // Get access to the text resource.
-            Assembly assembly = this.GetType().GetTypeInfo().Assembly;
+            Assembly assembly = GetType().GetTypeInfo().Assembly;
 
 #if __IOS__
             string resource = "BlackCatSap.iOS.TheBlackCat.txt";

@@ -17,7 +17,7 @@ namespace BlackCat
             };
 
             // Get access to the text resource.
-            Assembly assembly = this.GetType().GetTypeInfo().Assembly;
+            Assembly assembly = GetType().GetTypeInfo().Assembly;
             string resource = "BlackCat.Texts.TheBlackCat.txt";
 
             using (Stream stream = assembly.GetManifestResourceStream (resource)) 
