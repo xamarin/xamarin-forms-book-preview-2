@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="AltLabel.cs" />
     <Compile Include="AltLabelGeneric.cs" />
+    <Compile Include="BmpMaker.cs" />
     <Compile Include="CountedLabel.cs" />
     <Compile Include="HslColorExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
