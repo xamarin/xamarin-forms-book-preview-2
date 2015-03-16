@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:StackedBitmap;assembly=StackedBitmap"
+             xmlns:local="clr-namespace:StackedBitmap"
              x:Class="StackedBitmap.StackedBitmapPage">
     
     <StackLayout>
@@ -12,12 +12,6 @@
         
         <Image Source="{local:ImageResource StackedBitmap.Images.Sculpture_400x300.jpg}"
                BackgroundColor="Aqua"
-               
-               
-               Aspect="Fill"
-               HorizontalOptions="Center"
-               
-               
                SizeChanged="OnImageSizeChanged" />
 
         <Label x:Name="label"
