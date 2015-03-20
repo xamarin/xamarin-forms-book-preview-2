@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-  xmlns:toolkit="clr-namespace:Xamarin.FormsBook.Toolkit;assembly=Xamarin.FormsBook.Toolkit"
+             xmlns:toolkit=
+                 "clr-namespace:Xamarin.FormsBook.Toolkit;assembly=Xamarin.FormsBook.Toolkit"
              x:Class="CustomExtensionDemo.CustomExtensionDemoPage">
 
     <StackLayout>
@@ -31,12 +32,12 @@
                  HorizontalOptions="Center"
                  VerticalOptions="CenterAndExpand" />
         
-        <!-- Semi-transparent white -->
+        <!-- Semitransparent white -->
         <BoxView Color="{toolkit:HslColor H=0, S=0, L=1, A=0.5}"
                  HorizontalOptions="Center"
                  VerticalOptions="CenterAndExpand" />
         
-        <!-- Semi-transparent black -->
+        <!-- Semitransparent black -->
         <BoxView Color="{toolkit:HslColor H=0, S=0, L=0, A=0.5}"
                  HorizontalOptions="Center"
                  VerticalOptions="CenterAndExpand" />

@@ -43,7 +43,7 @@
             </Label.FormattedText>
         </Label>
         
-        <!-- This raises a runtime exception! -->
+        <!-- This raises a run-time exception! -->
 
         <!--<Label Text="DynamicResource on Span.Text:"
                VerticalOptions="EndAndExpand"
