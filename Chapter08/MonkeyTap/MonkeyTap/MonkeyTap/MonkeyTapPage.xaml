@@ -25,7 +25,7 @@
         
         <Button x:Name="startGameButton"
                 Text="Begin"
-                Font="Large"
+                FontSize="Large"
                 HorizontalOptions="Center"
                 Clicked="OnStartGameButtonClicked" />
         
