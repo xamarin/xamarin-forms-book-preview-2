@@ -37,11 +37,18 @@
     <Compile Include="AltLabel.cs" />
     <Compile Include="AltLabelGeneric.cs" />
     <Compile Include="BmpMaker.cs" />
+    <Compile Include="BoolToColorConverter.cs" />
+    <Compile Include="BoolToObjectConverter.cs" />
+    <Compile Include="BoolToStringConverter.cs" />
     <Compile Include="CheckBox.xaml.cs">
       <DependentUpon>CheckBox.xaml</DependentUpon>
     </Compile>
     <Compile Include="CountedLabel.cs" />
     <Compile Include="HslColorExtension.cs" />
+    <Compile Include="IntToBoolConverter.cs" />
+    <Compile Include="NewCheckBox.xaml.cs">
+      <DependentUpon>NewCheckBox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CheckBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NewCheckBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
