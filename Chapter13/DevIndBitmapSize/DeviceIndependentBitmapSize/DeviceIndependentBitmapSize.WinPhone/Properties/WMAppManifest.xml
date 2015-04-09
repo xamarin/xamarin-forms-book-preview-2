@@ -2,7 +2,7 @@
 
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US"/>
-  <App xmlns="" ProductID="{ba268a5d-43f6-47ee-a38b-eeaddb3c9a58}" Title="DeviceIndependentBitmapSize.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="DeviceIndependentBitmapSize.WinPhone author" Description="Sample description" Publisher="DeviceIndependentBitmapSize.WinPhone" PublisherID="{e4d4de48-471a-4adf-8f1c-566ed83a8937}">
+  <App xmlns="" ProductID="{2780c3f0-2e3e-4b43-a505-9f722c5d14a7}" Title="DeviceIndependentBitmapSize.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="DeviceIndependentBitmapSize.WinPhone author" Description="Sample description" Publisher="DeviceIndependentBitmapSize.WinPhone" PublisherID="{36ed035c-0061-4192-87aa-1330041d0a7b}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING"/>
