@@ -8,7 +8,7 @@
       <MiddleName />
       <LastName>Bowden</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/AdkinsBowden.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/AdkinsBowden.png</PhotoFilename>
       <GradePointAverage>2.71</GradePointAverage>
     </Student>
     <Student>
@@ -17,7 +17,7 @@
       <MiddleName />
       <LastName>Black</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/AlfredBlack.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/AlfredBlack.png</PhotoFilename>
       <GradePointAverage>2.87</GradePointAverage>
     </Student>
     <Student>
@@ -26,7 +26,7 @@
       <MiddleName />
       <LastName>Bishop</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/AliceBishop.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/AliceBishop.png</PhotoFilename>
       <GradePointAverage>3.68</GradePointAverage>
     </Student>
     <Student>
@@ -35,7 +35,7 @@
       <MiddleName>Hermine</MiddleName>
       <LastName>Morrison</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/AlmaHermineMorrison.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/AlmaHermineMorrison.png</PhotoFilename>
       <GradePointAverage>1.99</GradePointAverage>
     </Student>
     <Student>
@@ -44,7 +44,7 @@
       <MiddleName />
       <LastName>Foster</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/AngieFoster.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/AngieFoster.png</PhotoFilename>
       <GradePointAverage>1.37</GradePointAverage>
     </Student>
     <Student>
@@ -53,7 +53,7 @@
       <MiddleName />
       <LastName>Matkin</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/AntoinetteMatkin.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/AntoinetteMatkin.png</PhotoFilename>
       <GradePointAverage>1.17</GradePointAverage>
     </Student>
     <Student>
@@ -62,7 +62,7 @@
       <MiddleName />
       <LastName>Byers</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/BarbaraByers.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/BarbaraByers.png</PhotoFilename>
       <GradePointAverage>1.85</GradePointAverage>
     </Student>
     <Student>
@@ -71,7 +71,7 @@
       <MiddleName>Wilma</MiddleName>
       <LastName>Schultz</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/BernadineWilmaSchultz.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/BernadineWilmaSchultz.png</PhotoFilename>
       <GradePointAverage>3.65</GradePointAverage>
     </Student>
     <Student>
@@ -80,7 +80,7 @@
       <MiddleName />
       <LastName>Thomas</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/BernitaThomas.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/BernitaThomas.png</PhotoFilename>
       <GradePointAverage>1.96</GradePointAverage>
     </Student>
     <Student>
@@ -89,7 +89,7 @@
       <MiddleName />
       <LastName>Kibler</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/CamilleKibler.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/CamilleKibler.png</PhotoFilename>
       <GradePointAverage>2.54</GradePointAverage>
     </Student>
     <Student>
@@ -98,7 +98,7 @@
       <MiddleName />
       <LastName>Carter</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/CharlesCarter.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/CharlesCarter.png</PhotoFilename>
       <GradePointAverage>1.12</GradePointAverage>
     </Student>
     <Student>
@@ -107,7 +107,7 @@
       <MiddleName>Edgar</MiddleName>
       <LastName>Virden</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/CharlesEdgarVirden.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/CharlesEdgarVirden.png</PhotoFilename>
       <GradePointAverage>2.28</GradePointAverage>
     </Student>
     <Student>
@@ -116,7 +116,7 @@
       <MiddleName />
       <LastName>Kilburn</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/CharlesKilburn.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/CharlesKilburn.png</PhotoFilename>
       <GradePointAverage>1.72</GradePointAverage>
     </Student>
     <Student>
@@ -125,7 +125,7 @@
       <MiddleName />
       <LastName>Jungjohann</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ChristianJungjohann.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ChristianJungjohann.png</PhotoFilename>
       <GradePointAverage>3.73</GradePointAverage>
     </Student>
     <Student>
@@ -134,7 +134,7 @@
       <MiddleName />
       <LastName>Moelich</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ChristinaMoelich.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ChristinaMoelich.png</PhotoFilename>
       <GradePointAverage>2.41</GradePointAverage>
     </Student>
     <Student>
@@ -143,7 +143,7 @@
       <MiddleName>Louise</MiddleName>
       <LastName>Fink</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ClaraLouiseFink.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ClaraLouiseFink.png</PhotoFilename>
       <GradePointAverage>3.21</GradePointAverage>
     </Student>
     <Student>
@@ -152,7 +152,7 @@
       <MiddleName />
       <LastName>Corbin</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ClarindaCorbin.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ClarindaCorbin.png</PhotoFilename>
       <GradePointAverage>2.73</GradePointAverage>
     </Student>
     <Student>
@@ -161,7 +161,7 @@
       <MiddleName />
       <LastName>Stearns</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/DayverneStearns.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/DayverneStearns.png</PhotoFilename>
       <GradePointAverage>1.28</GradePointAverage>
     </Student>
     <Student>
@@ -170,7 +170,7 @@
       <MiddleName />
       <LastName>Congdon</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/DorothyCongdon.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/DorothyCongdon.png</PhotoFilename>
       <GradePointAverage>2.07</GradePointAverage>
     </Student>
     <Student>
@@ -179,7 +179,7 @@
       <MiddleName />
       <LastName>Weisiger</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/EarlWeisiger.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/EarlWeisiger.png</PhotoFilename>
       <GradePointAverage>1.28</GradePointAverage>
     </Student>
     <Student>
@@ -188,7 +188,7 @@
       <MiddleName />
       <LastName>Richardson</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/EdnaRichardson.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/EdnaRichardson.png</PhotoFilename>
       <GradePointAverage>2.39</GradePointAverage>
     </Student>
     <Student>
@@ -197,7 +197,7 @@
       <MiddleName />
       <LastName>Routledge</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/EldonRoutledge.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/EldonRoutledge.png</PhotoFilename>
       <GradePointAverage>3.26</GradePointAverage>
     </Student>
     <Student>
@@ -206,7 +206,7 @@
       <MiddleName />
       <LastName>Means</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ElgieMeans.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ElgieMeans.png</PhotoFilename>
       <GradePointAverage>1.16</GradePointAverage>
     </Student>
     <Student>
@@ -215,7 +215,7 @@
       <MiddleName />
       <LastName>Barnes</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ElizabethBarnes.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ElizabethBarnes.png</PhotoFilename>
       <GradePointAverage>3.68</GradePointAverage>
     </Student>
     <Student>
@@ -224,7 +224,7 @@
       <MiddleName>Bruce</MiddleName>
       <LastName>Lucas</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ElizabethBruceLucas.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ElizabethBruceLucas.png</PhotoFilename>
       <GradePointAverage>3.43</GradePointAverage>
     </Student>
     <Student>
@@ -233,7 +233,7 @@
       <MiddleName />
       <LastName>Routledge</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ElizabethRoutledge.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ElizabethRoutledge.png</PhotoFilename>
       <GradePointAverage>3.86</GradePointAverage>
     </Student>
     <Student>
@@ -242,7 +242,7 @@
       <MiddleName />
       <LastName>Smith</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/EugeneSmith.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/EugeneSmith.png</PhotoFilename>
       <GradePointAverage>3.92</GradePointAverage>
     </Student>
     <Student>
@@ -251,7 +251,7 @@
       <MiddleName />
       <LastName>Anderson</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/EuniceAnderson.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/EuniceAnderson.png</PhotoFilename>
       <GradePointAverage>3.96</GradePointAverage>
     </Student>
     <Student>
@@ -260,7 +260,7 @@
       <MiddleName>Winifred</MiddleName>
       <LastName>Preston</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/EuniceWinifredPreston.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/EuniceWinifredPreston.png</PhotoFilename>
       <GradePointAverage>2.70</GradePointAverage>
     </Student>
     <Student>
@@ -269,7 +269,7 @@
       <MiddleName />
       <LastName>Johnston</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/GeorgeJohnston.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/GeorgeJohnston.png</PhotoFilename>
       <GradePointAverage>1.07</GradePointAverage>
     </Student>
     <Student>
@@ -278,7 +278,7 @@
       <MiddleName />
       <LastName>Fleck</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/GraceFleck.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/GraceFleck.png</PhotoFilename>
       <GradePointAverage>1.96</GradePointAverage>
     </Student>
     <Student>
@@ -287,7 +287,7 @@
       <MiddleName />
       <LastName>Stearns</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/HarryStearns.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/HarryStearns.png</PhotoFilename>
       <GradePointAverage>3.61</GradePointAverage>
     </Student>
     <Student>
@@ -296,7 +296,7 @@
       <MiddleName>Avery</MiddleName>
       <LastName>Schumacher</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/HenryAverySchumacher.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/HenryAverySchumacher.png</PhotoFilename>
       <GradePointAverage>1.31</GradePointAverage>
     </Student>
     <Student>
@@ -305,7 +305,7 @@
       <MiddleName />
       <LastName>Gilbert</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/IdusGilbert.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/IdusGilbert.png</PhotoFilename>
       <GradePointAverage>1.23</GradePointAverage>
     </Student>
     <Student>
@@ -314,7 +314,7 @@
       <MiddleName />
       <LastName>Bryan</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/IreneBryan.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/IreneBryan.png</PhotoFilename>
       <GradePointAverage>2.52</GradePointAverage>
     </Student>
     <Student>
@@ -323,7 +323,7 @@
       <MiddleName />
       <LastName>Valentine</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/IsabelleValentine.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/IsabelleValentine.png</PhotoFilename>
       <GradePointAverage>2.80</GradePointAverage>
     </Student>
     <Student>
@@ -332,7 +332,7 @@
       <MiddleName>Idus</MiddleName>
       <LastName>Lambert</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/JosephIdusLambert.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/JosephIdusLambert.png</PhotoFilename>
       <GradePointAverage>2.13</GradePointAverage>
     </Student>
     <Student>
@@ -341,7 +341,7 @@
       <MiddleName />
       <LastName>Mulcahy</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/KateMulcahy.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/KateMulcahy.png</PhotoFilename>
       <GradePointAverage>2.80</GradePointAverage>
     </Student>
     <Student>
@@ -350,7 +350,7 @@
       <MiddleName />
       <LastName>Glenn</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/KatherineGlenn.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/KatherineGlenn.png</PhotoFilename>
       <GradePointAverage>1.88</GradePointAverage>
     </Student>
     <Student>
@@ -359,7 +359,7 @@
       <MiddleName>Elizabeth</MiddleName>
       <LastName>Faris</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/KathleenElizabethFaris.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/KathleenElizabethFaris.png</PhotoFilename>
       <GradePointAverage>2.69</GradePointAverage>
     </Student>
     <Student>
@@ -368,7 +368,7 @@
       <MiddleName />
       <LastName>Butchofsky</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/LenaButchofsky.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/LenaButchofsky.png</PhotoFilename>
       <GradePointAverage>2.72</GradePointAverage>
     </Student>
     <Student>
@@ -377,7 +377,7 @@
       <MiddleName />
       <LastName>Lockwood</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/LillianLockwood.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/LillianLockwood.png</PhotoFilename>
       <GradePointAverage>1.07</GradePointAverage>
     </Student>
     <Student>
@@ -386,7 +386,7 @@
       <MiddleName>Isabelle</MiddleName>
       <LastName>Springer</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/LouiseIsabelleSpringer.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/LouiseIsabelleSpringer.png</PhotoFilename>
       <GradePointAverage>1.66</GradePointAverage>
     </Student>
     <Student>
@@ -395,7 +395,7 @@
       <MiddleName />
       <LastName>Bacon</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/LucasBacon.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/LucasBacon.png</PhotoFilename>
       <GradePointAverage>1.17</GradePointAverage>
     </Student>
     <Student>
@@ -404,7 +404,7 @@
       <MiddleName />
       <LastName>Bryan</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MargaretBryan.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MargaretBryan.png</PhotoFilename>
       <GradePointAverage>3.21</GradePointAverage>
     </Student>
     <Student>
@@ -413,7 +413,7 @@
       <MiddleName />
       <LastName>Mateus</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MariaMateus.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MariaMateus.png</PhotoFilename>
       <GradePointAverage>3.92</GradePointAverage>
     </Student>
     <Student>
@@ -422,7 +422,7 @@
       <MiddleName />
       <LastName>Schwartz</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MarieSchwartz.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MarieSchwartz.png</PhotoFilename>
       <GradePointAverage>3.53</GradePointAverage>
     </Student>
     <Student>
@@ -431,7 +431,7 @@
       <MiddleName>Frances</MiddleName>
       <LastName>Henderson</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MaryFrancesHenderson.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MaryFrancesHenderson.png</PhotoFilename>
       <GradePointAverage>3.91</GradePointAverage>
     </Student>
     <Student>
@@ -440,7 +440,7 @@
       <MiddleName />
       <LastName>Keating</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MaryKeating.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MaryKeating.png</PhotoFilename>
       <GradePointAverage>3.53</GradePointAverage>
     </Student>
     <Student>
@@ -449,7 +449,7 @@
       <MiddleName />
       <LastName>Redmond</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MaryRedmond.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MaryRedmond.png</PhotoFilename>
       <GradePointAverage>3.51</GradePointAverage>
     </Student>
     <Student>
@@ -458,7 +458,7 @@
       <MiddleName />
       <LastName>Clark</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MattieClark.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MattieClark.png</PhotoFilename>
       <GradePointAverage>1.98</GradePointAverage>
     </Student>
     <Student>
@@ -467,7 +467,7 @@
       <MiddleName>Helen</MiddleName>
       <LastName>Marston</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MildredHelenMarston.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MildredHelenMarston.png</PhotoFilename>
       <GradePointAverage>2.70</GradePointAverage>
     </Student>
     <Student>
@@ -476,7 +476,7 @@
       <MiddleName />
       <LastName>Henning</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MinetaHenning.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MinetaHenning.png</PhotoFilename>
       <GradePointAverage>2.71</GradePointAverage>
     </Student>
     <Student>
@@ -485,7 +485,7 @@
       <MiddleName>Lee</MiddleName>
       <LastName>Lassiter</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MinnieLeeLassiter.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MinnieLeeLassiter.png</PhotoFilename>
       <GradePointAverage>1.26</GradePointAverage>
     </Student>
     <Student>
@@ -494,7 +494,7 @@
       <MiddleName>Lopas</MiddleName>
       <LastName>Hughes</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/MolineLopasHughes.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/MolineLopasHughes.png</PhotoFilename>
       <GradePointAverage>1.79</GradePointAverage>
     </Student>
     <Student>
@@ -503,7 +503,7 @@
       <MiddleName />
       <LastName>Hammons</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/NannieHammons.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/NannieHammons.png</PhotoFilename>
       <GradePointAverage>1.70</GradePointAverage>
     </Student>
     <Student>
@@ -512,7 +512,7 @@
       <MiddleName />
       <LastName>Mulcahy</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/NellMulcahy.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/NellMulcahy.png</PhotoFilename>
       <GradePointAverage>2.33</GradePointAverage>
     </Student>
     <Student>
@@ -521,7 +521,7 @@
       <MiddleName />
       <LastName>Rheinheimer</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/NelsonRheinheimer.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/NelsonRheinheimer.png</PhotoFilename>
       <GradePointAverage>3.56</GradePointAverage>
     </Student>
     <Student>
@@ -530,7 +530,7 @@
       <MiddleName>Edson</MiddleName>
       <LastName>Hadlock</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/OpalEdsonHadlock.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/OpalEdsonHadlock.png</PhotoFilename>
       <GradePointAverage>2.42</GradePointAverage>
     </Student>
     <Student>
@@ -539,7 +539,7 @@
       <MiddleName />
       <LastName>O'Neill</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/RalphO'Neill.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/RalphO'Neill.png</PhotoFilename>
       <GradePointAverage>3.18</GradePointAverage>
     </Student>
     <Student>
@@ -548,7 +548,7 @@
       <MiddleName />
       <LastName>Jungjohann</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/RamielJungjohann.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/RamielJungjohann.png</PhotoFilename>
       <GradePointAverage>3.90</GradePointAverage>
     </Student>
     <Student>
@@ -557,7 +557,7 @@
       <MiddleName />
       <LastName>Harlan</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ReedHarlan.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ReedHarlan.png</PhotoFilename>
       <GradePointAverage>3.46</GradePointAverage>
     </Student>
     <Student>
@@ -566,7 +566,7 @@
       <MiddleName />
       <LastName>Clayton</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/RoseClayton.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/RoseClayton.png</PhotoFilename>
       <GradePointAverage>2.11</GradePointAverage>
     </Student>
     <Student>
@@ -575,7 +575,7 @@
       <MiddleName />
       <LastName>Hill</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/RossHill.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/RossHill.png</PhotoFilename>
       <GradePointAverage>2.83</GradePointAverage>
     </Student>
     <Student>
@@ -584,7 +584,7 @@
       <MiddleName />
       <LastName>Darnall</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/RuyDarnall.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/RuyDarnall.png</PhotoFilename>
       <GradePointAverage>1.75</GradePointAverage>
     </Student>
     <Student>
@@ -593,7 +593,7 @@
       <MiddleName />
       <LastName>Lattner</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/SteveLattner.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/SteveLattner.png</PhotoFilename>
       <GradePointAverage>2.44</GradePointAverage>
     </Student>
     <Student>
@@ -602,7 +602,7 @@
       <MiddleName />
       <LastName>Youngberg</LastName>
       <Sex>Female</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/ThereseYoungberg.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/ThereseYoungberg.png</PhotoFilename>
       <GradePointAverage>2.95</GradePointAverage>
     </Student>
     <Student>
@@ -611,7 +611,7 @@
       <MiddleName />
       <LastName>Ponsford</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/WalterPonsford.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/WalterPonsford.png</PhotoFilename>
       <GradePointAverage>2.52</GradePointAverage>
     </Student>
     <Student>
@@ -620,7 +620,7 @@
       <MiddleName>Sheley</MiddleName>
       <LastName>Warnock</LastName>
       <Sex>Male</Sex>
-      <PhotoFilename>http://www.charlespetzold.com/Students/WilliamSheleyWarnock.png</PhotoFilename>
+      <PhotoFilename>http://xamarin.github.io/xamarin-forms-book-preview-2/ElPasoHighSchool/WilliamSheleyWarnock.png</PhotoFilename>
       <GradePointAverage>1.82</GradePointAverage>
     </Student>
   </Students>
