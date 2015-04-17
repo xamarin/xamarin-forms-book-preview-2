@@ -14,7 +14,7 @@ namespace WebBitmapCode
     {
         public WebBitmapCodePage()
         {
-            string uri = "http://developer.xamarin.com/demo/IMG_1415.JPG?width=25";
+            string uri = "http://developer.xamarin.com/demo/IMG_1415.JPG";
 
             Content = new Image
             {
