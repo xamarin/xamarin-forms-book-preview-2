@@ -10,6 +10,9 @@ using Android.OS;
 #elif WINDOWS_PHONE
 using Microsoft.Phone.Info;
 
+#elif WINDOWS_APP || WINDOWS_PHONE_APP
+using Windows.Security.ExchangeActiveSyncProvisioning;
+
 #endif
 
 namespace DisplayPlatformInfoSap1
@@ -38,6 +41,13 @@ namespace DisplayPlatformInfoSap1
             modelLabel.Text = String.Format("{0} {1}", DeviceStatus.DeviceManufacturer, 
                                                        DeviceStatus.DeviceName);
             versionLabel.Text = Environment.OSVersion.ToString();
+
+#elif WINDOWS_APP || WINDOWS_PHONE_APP
+
+            EasClientDeviceInformation devInfo = new EasClientDeviceInformation();
+            modelLabel.Text = String.Format("{0} {1}", devInfo.SystemManufacturer, 
+                                                       devInfo.SystemProductName);
+            versionLabel.Text = devInfo.OperatingSystem;
 
 #endif
 
