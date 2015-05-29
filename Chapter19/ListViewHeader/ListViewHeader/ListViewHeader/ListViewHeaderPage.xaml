@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:elpaso="clr-namespace:ElPasoHighSchool;assembly=ElPasoHighSchool"
+             x:Class="ListViewHeader.ListViewHeaderPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="0, 20, 0, 0" />
+    </ContentPage.Padding>
+
+    <ContentPage.BindingContext>
+        <elpaso:SchoolViewModel />
+    </ContentPage.BindingContext>
+
+    <ListView BindingContext="{Binding StudentBody}"
+              ItemsSource="{Binding Students}"
+              Header="{Binding School}">
+        
+        <ListView.HeaderTemplate>
+            <DataTemplate>
+                <Label Text="{Binding}"
+                       FontSize="Large"
+                       FontAttributes="Bold, Italic"
+                       XAlign="Center" />
+            </DataTemplate>
+        </ListView.HeaderTemplate>
+        
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ImageCell ImageSource="{Binding PhotoFilename}"
+                           Text="{Binding FullName}"
+                           Detail="{Binding GradePointAverage,
+                                            StringFormat='G.P.A. = {0:F2}'}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

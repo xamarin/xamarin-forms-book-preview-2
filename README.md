@@ -1,5 +1,5 @@
 # xamarin-forms-book-preview-2
-Sample code for the 2nd Preview Edition of "Creating Mobile Apps with Xamarin.Forms"
+Sample code for the 2nd Preview Edition of *Creating Mobile Apps with Xamarin.Forms*.
 
 Chapters of the book can be downloaded from http://developer.xamarin.com/guides/cross-platform/xamarin-forms/creating-mobile-apps-xamarin-forms/.
 
@@ -23,9 +23,13 @@ To add the Windows Runtime projects to your own Xamarin.Forms solutions, see htt
 
 ### Loading the NuGet Packages
 
-The NuGet packages with the Xamarin.Forms libraries are not part of these projects. They must be downloaded for each project.
+The Xamarin.Forms NuGet packages are not part of these projects. They must be downloaded for each project.
 
-First load the **Libraries/Xamarin.FormsBook.Toolkit** solution into Visual Studio. Right-click the solution name in the **Solution List** and select **Manage NuGet Packages for Solution**. A notice should appear at the top of the **Manage NuGet Packages** dialog that says "Some NuGet packages are missing from this solution. Click to restore from you online package sources." Click the **Restore** button and then the **Close** button.
+To avoid hassles, start by loading the NuGet packages for the two solutions in the **Libraries** directory, and building those two projects. 
+
+First load the **Libraries/Xamarin.FormsBook.Toolkit** solution into Visual Studio. Right-click the solution name in the **Solution List** and select **Manage NuGet Packages for Solution**. A notice should appear at the top of the **Manage NuGet Packages** dialog that says "Some NuGet packages are missing from this solution. Click to restore from you online package sources." Click the **Restore** button and then the **Close** button. Build the library.
+
+Do the same thing with the **Libraries/ElPasoHighSchool** solution.
 
 You can then load any of the application projects. For each project, again right-click the solution name, select **Manage NuGet Packages for Solution** and go through the same process.
 

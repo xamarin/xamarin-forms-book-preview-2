@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{67F9D3A8-F71E-4428-913F-C37AE82CDB24}</ProjectGuid>
+    <ProjectGuid>{58EEAFFF-D1BB-4375-AEFC-8270F8415DCE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Xamarin.FormsBook.Toolkit</RootNamespace>
@@ -44,16 +44,24 @@
     <Compile Include="CheckBox.xaml.cs">
       <DependentUpon>CheckBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ColorToContrastColorConverter.cs" />
     <Compile Include="ColorViewModel.cs" />
     <Compile Include="CountedLabel.cs" />
     <Compile Include="DateTimeViewModel.cs" />
     <Compile Include="DoubleToIntConverter.cs" />
     <Compile Include="HslColorExtension.cs" />
     <Compile Include="IntToBoolConverter.cs" />
+    <Compile Include="NamedColor.cs" />
+    <Compile Include="NamedColorGroup.cs" />
     <Compile Include="NewCheckBox.xaml.cs">
       <DependentUpon>NewCheckBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ObjectToIndexConverter.cs" />
+    <Compile Include="PickerCell.xaml.cs">
+      <DependentUpon>PickerCell.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThresholdToObjectConverter.cs" />
     <Compile Include="ViewModelBase.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +89,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PickerCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.4.2.6359\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.2.6359\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
