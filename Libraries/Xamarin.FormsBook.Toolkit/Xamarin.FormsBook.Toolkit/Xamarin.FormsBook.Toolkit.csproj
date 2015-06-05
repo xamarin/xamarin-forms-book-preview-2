@@ -37,7 +37,9 @@
     <Compile Include="AdderViewModel.cs" />
     <Compile Include="AltLabel.cs" />
     <Compile Include="AltLabelGeneric.cs" />
+    <Compile Include="BaseTwoLogConverter.cs" />
     <Compile Include="BmpMaker.cs" />
+    <Compile Include="BooleanNegationConverter.cs" />
     <Compile Include="BoolToColorConverter.cs" />
     <Compile Include="BoolToObjectConverter.cs" />
     <Compile Include="BoolToStringConverter.cs" />
@@ -46,6 +48,7 @@
     </Compile>
     <Compile Include="ColorToContrastColorConverter.cs" />
     <Compile Include="ColorViewModel.cs" />
+    <Compile Include="Complex.cs" />
     <Compile Include="CountedLabel.cs" />
     <Compile Include="DateTimeViewModel.cs" />
     <Compile Include="DoubleToIntConverter.cs" />
