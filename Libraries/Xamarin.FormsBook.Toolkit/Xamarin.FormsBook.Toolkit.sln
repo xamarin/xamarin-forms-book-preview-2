@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.FormsBook.Toolkit", "Xamarin.FormsBook.Toolkit\Xamarin.FormsBook.Toolkit.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.FormsBook.Toolkit", "Xamarin.FormsBook.Toolkit\Xamarin.FormsBook.Toolkit.csproj", "{58EEAFFF-D1BB-4375-AEFC-8270F8415DCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EEAFFF-D1BB-4375-AEFC-8270F8415DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EEAFFF-D1BB-4375-AEFC-8270F8415DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EEAFFF-D1BB-4375-AEFC-8270F8415DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EEAFFF-D1BB-4375-AEFC-8270F8415DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
