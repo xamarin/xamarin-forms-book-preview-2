@@ -7,17 +7,16 @@ Chapters of the book can be downloaded from http://developer.xamarin.com/guides/
 
 ### Now with Windows Runtime Projects!
 
-As of April 21, all solutions have been upgraded to Xamarin.Forms 1.4.2. Two additional projects have been added to every solution with the suffixes **WinApp** and **WinPhone81**. These projects target the Windows Runtime API in Windows 8.1 and Windows Phone 8.1, respectively.
+As of July 12, all solutions have been upgraded to Xamarin.Forms 1.4.3. Two additional projects have been added to every solution with the suffixes **WinApp** and **WinPhone81**. These projects target the Windows Runtime API in Windows 8.1 and Windows Phone 8.1, respectively.
 
-Because Xamarin.Forms 1.4.2 is a stable release, there is no longer a separate **windows-runtime** branch.
+Because Xamarin.Forms 1.4.3 is a stable release, there is no longer a separate **windows-runtime** branch.
 
 The support of the Windows Runtime API is still in a early state and not working entirely well. In particular, the following problems will be experienced in the sample programs with the **WinApp** and **WinPhone81** projects:
 
 - Font sizes are somewhat erratic
-- The `Accent` color doesn't show up
 - `Device.OnPlatform` and `OnPlatform` don't account for the two new platforms
 - The SAP programs in Chapter 9 won't compile
-- Most of the programs in Chapter 13 don't work.
+- Some of the programs in Chapter 13 don't work.
 
 To add the Windows Runtime projects to your own Xamarin.Forms solutions, see http://developer.xamarin.com/guides/cross-platform/xamarin-forms/windows/.
 
