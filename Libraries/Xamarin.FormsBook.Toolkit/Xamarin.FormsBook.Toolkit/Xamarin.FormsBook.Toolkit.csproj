@@ -39,6 +39,8 @@
     <Compile Include="AltLabelGeneric.cs" />
     <Compile Include="AnalogClockViewModel.cs" />
     <Compile Include="BaseTwoLogConverter.cs" />
+    <Compile Include="BezierSpline.cs" />
+    <Compile Include="BezierTangent.cs" />
     <Compile Include="BmpMaker.cs" />
     <Compile Include="BooleanNegationConverter.cs" />
     <Compile Include="BoolToColorConverter.cs" />
@@ -55,6 +57,8 @@
     <Compile Include="DoubleToIntConverter.cs" />
     <Compile Include="HslColorExtension.cs" />
     <Compile Include="IntToBoolConverter.cs" />
+    <Compile Include="JiggleButton.cs" />
+    <Compile Include="MoreViewExtensions.cs" />
     <Compile Include="NamedColor.cs" />
     <Compile Include="NamedColorGroup.cs" />
     <Compile Include="NewCheckBox.xaml.cs">
