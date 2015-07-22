@@ -77,14 +77,29 @@
 
         <ToolbarItem Text="explore"
                      Order="Secondary"
-                     Clicked="OnToolbarItemClicked" />
+                     Clicked="OnToolbarItemClicked">
+            <ToolbarItem.Icon>
+                <toolkit:ForPlatform x:TypeArguments="FileImageSource"
+                                     WindowsStore="Images/Icon1F52D.png" />
+            </ToolbarItem.Icon>
+        </ToolbarItem>
         
         <ToolbarItem Text="discover"
                      Order="Secondary"
-                     Clicked="OnToolbarItemClicked" />
+                     Clicked="OnToolbarItemClicked">
+            <ToolbarItem.Icon>
+                <toolkit:ForPlatform x:TypeArguments="FileImageSource"
+                                     WindowsStore="Images/Icon1F440.png" />
+            </ToolbarItem.Icon>
+        </ToolbarItem>
         
         <ToolbarItem Text="evolve"
                      Order="Secondary"
-                     Clicked="OnToolbarItemClicked" />
+                     Clicked="OnToolbarItemClicked">
+            <ToolbarItem.Icon>
+                <toolkit:ForPlatform x:TypeArguments="FileImageSource"
+                                     WindowsStore="Images/Icon1F435.png" />
+            </ToolbarItem.Icon>
+        </ToolbarItem>
     </ContentPage.ToolbarItems>
 </ContentPage>
