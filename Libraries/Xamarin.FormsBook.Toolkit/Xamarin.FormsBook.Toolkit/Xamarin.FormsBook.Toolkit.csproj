@@ -55,6 +55,7 @@
     <Compile Include="CountedLabel.cs" />
     <Compile Include="DateTimeViewModel.cs" />
     <Compile Include="DoubleToIntConverter.cs" />
+    <Compile Include="ForPlatform.cs" />
     <Compile Include="HslColorExtension.cs" />
     <Compile Include="IntToBoolConverter.cs" />
     <Compile Include="JiggleButton.cs" />

@@ -1,5 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
+using Xamarin.FormsBook.Toolkit;
 
 namespace PlatformBitmaps
 {
@@ -11,9 +12,22 @@ namespace PlatformBitmaps
             {
                 Source = new FileImageSource
                 {
-                    File = Device.OnPlatform(iOS: "Icon-Small-40.png",
-                                             Android: "icon.png",
-                                             WinPhone: "Assets/ApplicationIcon.png")
+                    // Interim fix for Windows Runtime projects: 
+                    //      ForPlatform class from Xamarin.FormsBook.Toolkit
+                    // -------------------------------------------------------------------------
+
+                    File = new ForPlatform<string>
+                    {
+                        iOS = "Icon-Small-40.png",
+                        Android = "icon.png",
+                        WinPhone = "Assets/ApplicationIcon.png",
+                        WindowsStore = "Assets/Logo.png",
+                        WindowsPhoneStore = "Assets/SmallLogo.png"
+                    }
+
+                    // File =   Device.OnPlatform(iOS: "Icon-Small-40.png",
+                    //                            Android: "icon.png",
+                    //                            WinPhone: "Assets/ApplicationIcon.png")
                 },
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.CenterAndExpand
