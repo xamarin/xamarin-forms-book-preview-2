@@ -14,9 +14,9 @@ Because Xamarin.Forms 1.4.3 is a stable release, there is no longer a separate *
 The support of the Windows Runtime API is still in a early state and not working entirely well. In particular, the following problems will be experienced in the sample programs with the **WinApp** and **WinPhone81** projects:
 
 - Font sizes are somewhat erratic
-- `Device.OnPlatform` and `OnPlatform` don't account for the two new platforms
+- `Device.OnPlatform` and `OnPlatform` don't account for the two new platforms (but see below)
 - The SAP programs in Chapter 9 won't compile
-- Some of the programs in Chapter 13 don't work.
+- Some of the programs in Chapter 13 don't work (but see below)
 
 To add the Windows Runtime projects to your own Xamarin.Forms solutions, see http://developer.xamarin.com/guides/cross-platform/xamarin-forms/windows/.
 
@@ -39,4 +39,11 @@ For some programs, there are some differences between the code listings in the P
 When specifying a `local` namespace declaration in XAML, it is no longer necessary to include the assembly name. You can include it if you want, but it's been removed from the **ColorListView** program in Chapter 8, **SharedStatics** in Chapter 10, and **StackedBitmap** in Chapter 13.
 
 The deprecated `Font` has been replaced with `FontSize` in **MonkeyTap** and **XamlKeypad**, both in Chapter 8.
+
+### Chapter 13 and Platform-Specific Bitmaps (July 22, 2015)
+
+The four programs in the section of Chapter 13 entitled "Platform-Specific Bitmaps" have all been enhanced to run on the two Windows Runtime platforms.
+
+To accomplish this, a `ForPlatform` class has been added to the **Xamarin.FormsBook.Toolkit** library. This class is very similar to `OnPlatform` except that it has two additional properties named `WindowsStore` and `WindowsPhoneStore`. These properties allow a code or XAML file to access bitmaps from the two Windows Runtime projects.
+
 
