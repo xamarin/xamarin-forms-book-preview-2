@@ -12,6 +12,9 @@ namespace ToolbarDemo
     {
         public ToolbarDemoPage()
         {
+            // Ensure link to Toolkit library.
+            new Xamarin.FormsBook.Toolkit.ForPlatform<object>();
+
             InitializeComponent();
         }
 
