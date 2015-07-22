@@ -7,6 +7,9 @@ namespace ImageTap
     {
         public ImageTapPage()
         {
+            // Ensure link to Toolkit library
+            new Xamarin.FormsBook.Toolkit.ForPlatform<object>();
+
             InitializeComponent();
         }
 

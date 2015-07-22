@@ -123,6 +123,14 @@
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Images\Scream.scale-100.jpg" />
+    <Content Include="Images\Scream.scale-140.jpg" />
+    <Content Include="Images\Scream.scale-180.jpg" />
+    <Content Include="Images\Scream.scale-240.jpg" />
+    <Content Include="Images\Venus.scale-100.jpg" />
+    <Content Include="Images\Venus.scale-140.jpg" />
+    <Content Include="Images\Venus.scale-180.jpg" />
+    <Content Include="Images\Venus.scale-240.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
