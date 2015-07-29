@@ -46,4 +46,8 @@ The four programs in the section of Chapter 13 entitled "Platform-Specific Bitma
 
 To accomplish this, a `ForPlatform` class has been added to the **Xamarin.FormsBook.Toolkit** library. This class is very similar to `OnPlatform` except that it has two additional properties named `WindowsStore` and `WindowsPhoneStore`. These properties allow a code or XAML file to access bitmaps from the two Windows Runtime projects.
 
+### Upgrade to version 1.4.4.6392 in Progress (July 29, 2015)
+
+Two programs towards the end of Chapter 19 (**ConditionalCells** and **ConditionalSection**) previously did not work on Windows Phone, and the screenshot in the chapter showed a gray screen for that platform. The programs now run on Windows Phone with version 1.4.4.6392 and the chapter has been updated.
+
 
