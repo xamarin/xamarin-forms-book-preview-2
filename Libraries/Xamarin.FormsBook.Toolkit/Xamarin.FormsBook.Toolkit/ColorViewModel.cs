@@ -117,7 +117,7 @@ namespace Xamarin.FormsBook.Toolkit
                     OnPropertyChanged("Red");
 
                 if (color.G != oldColor.G)
-                    OnPropertyChanged("Red");
+                    OnPropertyChanged("Green");
 
                 if (color.B != oldColor.B)
                     OnPropertyChanged("Blue");
