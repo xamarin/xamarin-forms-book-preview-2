@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:ToggleBase 
+        xmlns="http://xamarin.com/schemas/2014/forms"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:toolkit=
+            "clr-namespace:Xamarin.FormsBook.Toolkit;assembly=Xamarin.FormsBook.Toolkit"
+        x:Class="SwitchCloneDemo.SwitchClone"
+        x:Name="toggle">
+
+    <toolkit:ToggleBase.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:Key="height"
+                        x:TypeArguments="x:Double"
+                        iOS="20"
+                        Android="20"
+                        WinPhone="30" />
+            
+            <OnPlatform x:Key="width"
+                        x:TypeArguments="x:Double"
+                        iOS="50"
+                        Android="50"
+                        WinPhone="75" />
+
+            <OnPlatform x:Key="halfWidth"
+                        x:TypeArguments="x:Double"
+                        iOS="25"
+                        Android="25"
+                        WinPhone="37.5" />
+        </ResourceDictionary>
+    </toolkit:ToggleBase.Resources>
+    
+    <Frame Padding="2"
+           OutlineColor="Accent"
+           BackgroundColor="Transparent">
+        <AbsoluteLayout WidthRequest="{StaticResource width}">
+            <BoxView Color="Accent"
+                     WidthRequest="{StaticResource halfWidth}"
+                     HeightRequest="{StaticResource height}">
+                <BoxView.Triggers>
+                    <DataTrigger TargetType="BoxView"
+                                 Binding="{Binding Source={x:Reference toggle},
+                                                   Path=IsToggled}"
+                                 Value="True">
+                        <DataTrigger.EnterActions>
+                            <toolkit:TranslateAction X="{StaticResource halfWidth}"
+                                                     Length="100" />
+                        </DataTrigger.EnterActions>
+
+                        <DataTrigger.ExitActions>
+                            <toolkit:TranslateAction Length="100" />
+                        </DataTrigger.ExitActions>
+                    </DataTrigger>
+                </BoxView.Triggers>
+            </BoxView>
+        </AbsoluteLayout>
+    </Frame>
+</toolkit:ToggleBase>

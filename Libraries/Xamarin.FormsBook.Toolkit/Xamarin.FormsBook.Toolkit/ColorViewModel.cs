@@ -14,12 +14,12 @@ namespace Xamarin.FormsBook.Toolkit
         {
             set 
             {
-                if (color.R != value)
+                if (Round(color.R) != value)
                     Color = Color.FromRgba(value, color.G, color.B, color.A);
             }
             get 
             {
-                return color.R; 
+                return Round(color.R); 
             }
         }
 
@@ -27,12 +27,12 @@ namespace Xamarin.FormsBook.Toolkit
         {
             set
             {
-                if (color.G != value)
+                if (Round(color.G) != value)
                     Color = Color.FromRgba(color.R, value, color.B, color.A);
             }
             get
             {
-                return color.G;
+                return Round(color.G);
             }
         }
 
@@ -40,12 +40,12 @@ namespace Xamarin.FormsBook.Toolkit
         {
             set
             {
-                if (color.B != value)
+                if (Round(color.B) != value)
                     Color = Color.FromRgba(color.R, color.G, value, color.A);
             }
             get
             {
-                return color.B;
+                return Round(color.B);
             }
         }
 
@@ -53,12 +53,12 @@ namespace Xamarin.FormsBook.Toolkit
         {
             set
             {
-                if (color.A != value)
+                if (Round(color.A) != value)
                     Color = Color.FromRgba(color.R, color.G, color.B, value);
             }
             get
             {
-                return color.A;
+                return Round(color.A);
             }
         }
 
@@ -66,12 +66,12 @@ namespace Xamarin.FormsBook.Toolkit
         {
             set
             {
-                if (color.Hue != value)
+                if (Round(color.Hue) != value)
                     Color = Color.FromHsla(value, color.Saturation, color.Luminosity, color.A);
             }
             get
             {
-                return color.Hue;
+                return Round(color.Hue);
             }
         }
 
@@ -79,12 +79,12 @@ namespace Xamarin.FormsBook.Toolkit
         {
             set
             {
-                if (color.Saturation != value)
+                if (Round(color.Saturation) != value)
                     Color = Color.FromHsla(color.Hue, value, color.Luminosity, color.A);
             }
             get
             {
-                return color.Saturation;
+                return Round(color.Saturation);
             }
         }
 
@@ -92,12 +92,12 @@ namespace Xamarin.FormsBook.Toolkit
         {
             set
             {
-                if (color.Luminosity != value)
+                if (Round(color.Luminosity) != value)
                     Color = Color.FromHsla(color.Hue, color.Saturation, value, color.A);
             }
             get
             {
-                return color.Luminosity;
+                return Round(color.Luminosity);
             }
         }
 
@@ -148,6 +148,11 @@ namespace Xamarin.FormsBook.Toolkit
             {
                 handler(this, new PropertyChangedEventArgs(propertyName));
             }
+        }
+
+        double Round(double value)
+        {
+            return Device.OnPlatform(value, Math.Round(value, 3), value);
         }
     }
 }
