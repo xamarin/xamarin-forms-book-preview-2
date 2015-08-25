@@ -67,6 +67,8 @@ namespace Hello.WinPhone81
                 // Set the default language
                 rootFrame.Language = Windows.Globalization.ApplicationLanguages.Languages[0];
 
+                Xamarin.Forms.Forms.Init(e);
+
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
                     // TODO: Load state from previously suspended application

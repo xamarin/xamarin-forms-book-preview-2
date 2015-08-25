@@ -12,6 +12,7 @@
     <Name>Hello.iOS</Name>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <SelectedDevice>iPhone 6 iOS 8.4</SelectedDevice>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>

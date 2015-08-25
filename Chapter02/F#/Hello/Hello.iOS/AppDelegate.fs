@@ -6,16 +6,13 @@ open Foundation
 
 [<Register ("AppDelegate")>]
 type AppDelegate () =
-    inherit UIApplicationDelegate ()
-
-    let window = new UIWindow (UIScreen.MainScreen.Bounds)
+    inherit Xamarin.Forms.Platform.iOS.FormsApplicationDelegate()
 
     // This method is invoked when the application is ready to run.
     override this.FinishedLaunching (app, options) =
-        // If you have defined a root view controller, set it here:
-        // window.RootViewController <- new MyViewController ()
-        window.MakeKeyAndVisible ()
-        true
+        Xamarin.Forms.Forms.Init()
+        this.LoadApplication(Hello.App())
+        base.FinishedLaunching(app, options)
 
 module Main =
     [<EntryPoint>]
