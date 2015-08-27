@@ -20,15 +20,15 @@ namespace BlackCatSap
             Assembly assembly = GetType().GetTypeInfo().Assembly;
 
 #if __IOS__
-            string resource = "BlackCatSap.iOS.TheBlackCat.txt";
+            string resource = "BlackCatSap.iOS.Texts.TheBlackCat.txt";
 #elif __ANDROID__
-            string resource = "BlackCatSap.Droid.TheBlackCat.txt";
+            string resource = "BlackCatSap.Droid.Texts.TheBlackCat.txt";
 #elif WINDOWS_PHONE
-            string resource = "BlackCatSap.WinPhone.TheBlackCat.txt";
+            string resource = "BlackCatSap.WinPhone.Texts.TheBlackCat.txt";
 #elif WINDOWS_PHONE_APP
-            string resource = "BlackCatSap.WinPhone81.TheBlackCat.txt";
+            string resource = "BlackCatSap.WinPhone81.Texts.TheBlackCat.txt";
 #elif WINDOWS_APP
-            string resource = "BlackCatSap.WinApp.TheBlackCat.txt";
+            string resource = "BlackCatSap.WinApp.Texts.TheBlackCat.txt";
 #endif
 
             using (Stream stream = assembly.GetManifestResourceStream (resource)) 
