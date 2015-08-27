@@ -11,7 +11,6 @@ namespace ColorList
             double fontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label));
             Content = new StackLayout
             {
-                Spacing = 0,
                 Children =
                 {
                     new Label
@@ -59,7 +58,8 @@ namespace ColorList
                     new Label
                     {
                         Text = "Olive",
-                        TextColor = Color.Olive
+                        TextColor = Color.Olive,
+                        FontSize = fontSize
                     },
                     new Label
                     {
@@ -70,7 +70,8 @@ namespace ColorList
                     new Label
                     {
                         Text = "Green",
-                        TextColor = Color.Green
+                        TextColor = Color.Green,
+                        FontSize = fontSize
                     },
                     new Label
                     {
