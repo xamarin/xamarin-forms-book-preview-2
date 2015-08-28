@@ -44,7 +44,7 @@ namespace Xamarin.FormsBook.Toolkit
                     return magnitude;
                 }
 
-                magnitude = Math.Sqrt(magnitudeSquared);
+                magnitude = Math.Sqrt(MagnitudeSquared);
                 gotMagnitude = true;
                 return magnitude;
             }
