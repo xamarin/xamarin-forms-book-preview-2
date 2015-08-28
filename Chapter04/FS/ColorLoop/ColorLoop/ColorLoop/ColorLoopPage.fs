@@ -6,7 +6,7 @@ type ColorLoopPage() =
     inherit ContentPage()
 
     let colors = 
-        [|
+        [
             (Color.White, "White")
             (Color.Silver, "Silver")
             (Color.Gray, "Gray")
@@ -24,7 +24,7 @@ type ColorLoopPage() =
             (Color.Pink, "Pink")
             (Color.Fuchsia, "Fuchsia")
             (Color.Purple, "Purple")
-        |]
+        ]
 
     let stackLayout = StackLayout()
 
