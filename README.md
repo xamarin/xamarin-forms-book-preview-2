@@ -46,8 +46,17 @@ The four programs in the section of Chapter 13 entitled "Platform-Specific Bitma
 
 To accomplish this, a `ForPlatform` class has been added to the **Xamarin.FormsBook.Toolkit** library. This class is very similar to `OnPlatform` except that it has two additional properties named `WindowsStore` and `WindowsPhoneStore`. These properties allow a code or XAML file to access bitmaps from the two Windows Runtime projects.
 
-### Upgrade to version 1.4.4.6392 in Progress (July 29, 2015)
+### Upgrade to version 1.4.4.6392 in Progress (August 30, 2015)
 
+Chapter 1 through 6, and chapters 19 and 23 have been upgraded to Xamarin.Forms 1.4.4. 6392. 
 Two programs towards the end of Chapter 19 (**ConditionalCells** and **ConditionalSection**) previously did not work on Windows Phone, and the screenshot in the chapter showed a gray screen for that platform. The programs now run on Windows Phone with version 1.4.4.6392 and the chapter has been updated.
 
+### F# Versions (August 30, 2015)
+
+All the non-SAP solutions in Chapter 2 through 6 now exist in F# versions. These can be found in the FS directory of each of those chapter directories. 
+
+The two solutions in Chapter 2 were created manually and include F# versions of the iOS and Android startup projects (but C# versions of all the Windows Phone and Windows startup projects). 
+The solutions in Chapter 3 through 6 were created from the normal Xamarin.Forms solution template for C#, and then an F# project was substituted for the PCL.
+
+These should be considered "experimental" at this point. None of the F# projects run on Windows Phone 8, and others that use reflection have issues with the two Windows Runtime platforms.
 
