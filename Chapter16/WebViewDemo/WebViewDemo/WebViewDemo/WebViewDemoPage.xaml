@@ -32,6 +32,6 @@
 
         <WebView x:Name="webView"
                  VerticalOptions="FillAndExpand"
-                 Source="http://xamarin.com" />
+                 Source="https://xamarin.com" />
     </StackLayout>
 </ContentPage>

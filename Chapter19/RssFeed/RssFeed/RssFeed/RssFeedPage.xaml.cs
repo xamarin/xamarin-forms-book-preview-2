@@ -19,6 +19,9 @@ namespace RssFeed
 
                 // Set WebView source to RSS item
                 RssItemViewModel rssItem = (RssItemViewModel)args.SelectedItem;
+
+                // For iOS 9, a NSAppTransportSecurity key was added to 
+                //  Info.plist to allow accesses to EarthObservatory.nasa.gov sites.
                 webView.Source = rssItem.Link;
 
                 // Hide and make visible.

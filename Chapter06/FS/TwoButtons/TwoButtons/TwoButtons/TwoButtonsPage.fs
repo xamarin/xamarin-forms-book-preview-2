@@ -30,7 +30,7 @@ type TwoButtonsPage() =
             // Remove topmost Label from StackLayout.
             do loggerLayout.Children.RemoveAt(0)
 
-        // Eanble "Remove" button only if children are present.
+        // Enable "Remove" button only if children are present.
         do removeButton.IsEnabled <- loggerLayout.Children.Count > 0)
 
     // Attach Clicked handler to both buttons
