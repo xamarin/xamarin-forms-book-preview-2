@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit=
+                "clr-namespace:Xamarin.FormsBook.Toolkit;assembly=Xamarin.FormsBook.Toolkit"
+             x:Class="NoteTaker.NoteTakerHomePage"
+             Title="Note Taker">
+
+    <ListView ItemsSource="{Binding Source={x:Static Application.Current},
+                                    Path=NoteFolder.Notes}"
+              ItemSelected="OnListViewItemSelected"
+              VerticalOptions="FillAndExpand">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Identifier}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add Note"
+                     Order="Primary"
+                     Activated="OnAddNoteActivated">
+            <ToolbarItem.Icon>
+                <toolkit:ForPlatform x:TypeArguments="FileImageSource"
+                                     iOS="new.png"
+                                     Android="ic_action_new.png"
+                                     WinPhone="Images/add.png"
+                                     WindowsStore="Images/add.png"
+                                     WindowsPhoneStore="Images/add.png" />
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+</ContentPage>
