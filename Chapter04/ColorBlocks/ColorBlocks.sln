@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorBlocks", "ColorBlocks\ColorBlocks\ColorBlocks.csproj", "{1AF751FF-92C7-48AD-ADB3-4B10B28E7E9F}"
 EndProject
@@ -291,6 +291,8 @@ Global
 		{E46EBB82-C17C-467B-9B79-E771268D7BF6}.Debug|ARM.Deploy.0 = Debug|ARM
 		{E46EBB82-C17C-467B-9B79-E771268D7BF6}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{E46EBB82-C17C-467B-9B79-E771268D7BF6}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E46EBB82-C17C-467B-9B79-E771268D7BF6}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E46EBB82-C17C-467B-9B79-E771268D7BF6}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
 		{E46EBB82-C17C-467B-9B79-E771268D7BF6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{E46EBB82-C17C-467B-9B79-E771268D7BF6}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{E46EBB82-C17C-467B-9B79-E771268D7BF6}.Debug|Mixed Platforms.Deploy.0 = Debug|x86
@@ -355,6 +357,8 @@ Global
 		{872F1EA1-1835-4F39-B81F-F077ED8829F9}.Debug|ARM.Deploy.0 = Debug|ARM
 		{872F1EA1-1835-4F39-B81F-F077ED8829F9}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{872F1EA1-1835-4F39-B81F-F077ED8829F9}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{872F1EA1-1835-4F39-B81F-F077ED8829F9}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{872F1EA1-1835-4F39-B81F-F077ED8829F9}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
 		{872F1EA1-1835-4F39-B81F-F077ED8829F9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{872F1EA1-1835-4F39-B81F-F077ED8829F9}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{872F1EA1-1835-4F39-B81F-F077ED8829F9}.Debug|Mixed Platforms.Deploy.0 = Debug|x86

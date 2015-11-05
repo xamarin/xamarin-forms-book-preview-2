@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorList", "ColorList\ColorList\ColorList.csproj", "{A9EB4AEF-AC91-45E3-BCFE-CDBD05B7D1FF}"
 EndProject
@@ -287,6 +287,8 @@ Global
 		{6AF403CA-FA86-4C36-B269-F279C1A34F63}.Debug|ARM.Deploy.0 = Debug|ARM
 		{6AF403CA-FA86-4C36-B269-F279C1A34F63}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{6AF403CA-FA86-4C36-B269-F279C1A34F63}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{6AF403CA-FA86-4C36-B269-F279C1A34F63}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{6AF403CA-FA86-4C36-B269-F279C1A34F63}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
 		{6AF403CA-FA86-4C36-B269-F279C1A34F63}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{6AF403CA-FA86-4C36-B269-F279C1A34F63}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{6AF403CA-FA86-4C36-B269-F279C1A34F63}.Debug|Mixed Platforms.Deploy.0 = Debug|x86
@@ -351,6 +353,8 @@ Global
 		{779178E7-9A4C-41E7-A90D-4E2005D31E0A}.Debug|ARM.Deploy.0 = Debug|ARM
 		{779178E7-9A4C-41E7-A90D-4E2005D31E0A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{779178E7-9A4C-41E7-A90D-4E2005D31E0A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{779178E7-9A4C-41E7-A90D-4E2005D31E0A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{779178E7-9A4C-41E7-A90D-4E2005D31E0A}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
 		{779178E7-9A4C-41E7-A90D-4E2005D31E0A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{779178E7-9A4C-41E7-A90D-4E2005D31E0A}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{779178E7-9A4C-41E7-A90D-4E2005D31E0A}.Debug|Mixed Platforms.Deploy.0 = Debug|x86
