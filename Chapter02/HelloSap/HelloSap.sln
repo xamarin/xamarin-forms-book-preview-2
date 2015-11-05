@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSap.WinPhone", "HelloSap\HelloSap.WinPhone\HelloSap.WinPhone.csproj", "{75EDECCE-9F1B-497D-B59E-9A73D8C2B04A}"
 EndProject
@@ -255,6 +255,8 @@ Global
 		{64F836FF-494C-4B02-A877-01B8E443D556}.Debug|ARM.Deploy.0 = Debug|ARM
 		{64F836FF-494C-4B02-A877-01B8E443D556}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{64F836FF-494C-4B02-A877-01B8E443D556}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{64F836FF-494C-4B02-A877-01B8E443D556}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{64F836FF-494C-4B02-A877-01B8E443D556}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
 		{64F836FF-494C-4B02-A877-01B8E443D556}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{64F836FF-494C-4B02-A877-01B8E443D556}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{64F836FF-494C-4B02-A877-01B8E443D556}.Debug|Mixed Platforms.Deploy.0 = Debug|x86
@@ -319,6 +321,8 @@ Global
 		{62174F83-CD49-463C-A4F0-C99491A741F5}.Debug|ARM.Deploy.0 = Debug|ARM
 		{62174F83-CD49-463C-A4F0-C99491A741F5}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{62174F83-CD49-463C-A4F0-C99491A741F5}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{62174F83-CD49-463C-A4F0-C99491A741F5}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{62174F83-CD49-463C-A4F0-C99491A741F5}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
 		{62174F83-CD49-463C-A4F0-C99491A741F5}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{62174F83-CD49-463C-A4F0-C99491A741F5}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{62174F83-CD49-463C-A4F0-C99491A741F5}.Debug|Mixed Platforms.Deploy.0 = Debug|x86
