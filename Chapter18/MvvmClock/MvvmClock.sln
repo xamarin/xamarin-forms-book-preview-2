@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmClock", "MvvmClock\MvvmClock\MvvmClock.csproj", "{A29F1ADB-A60F-4229-98CC-F58D8E6E9A69}"
 EndProject
@@ -72,6 +72,7 @@ Global
 		{A29F1ADB-A60F-4229-98CC-F58D8E6E9A69}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{A29F1ADB-A60F-4229-98CC-F58D8E6E9A69}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{A29F1ADB-A60F-4229-98CC-F58D8E6E9A69}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A29F1ADB-A60F-4229-98CC-F58D8E6E9A69}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{A29F1ADB-A60F-4229-98CC-F58D8E6E9A69}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{A29F1ADB-A60F-4229-98CC-F58D8E6E9A69}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{A29F1ADB-A60F-4229-98CC-F58D8E6E9A69}.Debug|x64.ActiveCfg = Debug|Any CPU
