@@ -9,6 +9,7 @@
 
 # Xamarin.Android
 Resource.designer.cs
+*.bak
 
 # Xamarin Components
 Components/
