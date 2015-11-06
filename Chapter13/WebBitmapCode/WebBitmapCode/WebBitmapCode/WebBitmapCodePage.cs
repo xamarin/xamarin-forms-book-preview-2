@@ -1,11 +1,4 @@
 ﻿using System;
-
-
-using System.IO;
-using System.Net;
-
-
-
 using Xamarin.Forms;
 
 namespace WebBitmapCode
