@@ -7,11 +7,9 @@ Chapters of the book can be downloaded from http://developer.xamarin.com/guides/
 
 ### Now with Windows Runtime Projects!
 
-As of July 12, all solutions have been upgraded to Xamarin.Forms 1.4.3. Two additional projects have been added to every solution with the suffixes **WinApp** and **WinPhone81**. These projects target the Windows Runtime API in Windows 8.1 and Windows Phone 8.1, respectively.
+Two additional projects have been added to every solution with the suffixes **WinApp** and **WinPhone81**. These projects target the Windows Runtime API in Windows 8.1 and Windows Phone 8.1, respectively.
 
-Because Xamarin.Forms 1.4.3 is a stable release, there is no longer a separate **windows-runtime** branch.
-
-The support of the Windows Runtime API is still in a early state and not working entirely well. In particular, the following problems will be experienced in the sample programs with the **WinApp** and **WinPhone81** projects:
+The following problems will be experienced in the sample programs with the **WinApp** and **WinPhone81** projects:
 
 - Font sizes are somewhat erratic
 - `Device.OnPlatform` and `OnPlatform` don't account for the two new platforms (but see below)
@@ -46,11 +44,6 @@ The four programs in the section of Chapter 13 entitled "Platform-Specific Bitma
 
 To accomplish this, a `ForPlatform` class has been added to the **Xamarin.FormsBook.Toolkit** library. This class is very similar to `OnPlatform` except that it has two additional properties named `WindowsStore` and `WindowsPhoneStore`. These properties allow a code or XAML file to access bitmaps from the two Windows Runtime projects.
 
-### Upgrade to version 1.4.4.6392 in Progress (August 30, 2015)
-
-Chapter 1 through 6, and chapters 19 and 23 have been upgraded to Xamarin.Forms 1.4.4. 6392. 
-Two programs towards the end of Chapter 19 (**ConditionalCells** and **ConditionalSection**) previously did not work on Windows Phone, and the screenshot in the chapter showed a gray screen for that platform. The programs now run on Windows Phone with version 1.4.4.6392 and the chapter has been updated.
-
 ### F# Versions (August 30, 2015)
 
 All the non-SAP solutions in Chapter 2 through 6 now exist in F# versions. These can be found in the FS directory of each of those chapter directories. 
@@ -59,4 +52,10 @@ The two solutions in Chapter 2 were created manually and include F# versions of 
 The solutions in Chapter 3 through 6 were created from the normal Xamarin.Forms solution template for C#, and then an F# project was substituted for the PCL.
 
 These should be considered "experimental" at this point. None of the F# projects run on Windows Phone 8, and others that use reflection have issues with the two Windows Runtime platforms.
+
+### Upgrade to version 1.5.1.6471 (November 6, 2015)
+
+All solutions have been upgraded to Xamarin.Forms 1.5.1.6471. 
+
+Two programs towards the end of Chapter 19 (**ConditionalCells** and **ConditionalSection**) previously did not work on Windows Phone, and the screenshot in the chapter showed a gray screen for that platform. The programs now run on Windows Phone as of version 1.4.4.6392 and the chapter has been updated.
 
