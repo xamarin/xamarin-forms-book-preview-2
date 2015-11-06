@@ -10,10 +10,6 @@ type XamlKeypadPage() =
     // Experimental code only! 
     // This is not the way XAML will be processed ultimately!
     // ------------------------------------------------------
-    // NOTE: After the Xamarin.Forms NuGet packages are restored, the
-    //       [solution]/packages/Xamarin.Forms.[version]/build/portable.../Xamarin.Forms.target
-    //       file must be edited to comment out everything except the root tags, 
-    //       and the solution must be reloaded in Visual Studio.
     do base.LoadFromXaml(typeof<XamlKeypadPage>) |> ignore
     let displayLabel = base.FindByName<Label>("displayLabel")
     let backspaceButton = base.FindByName<Button>("backspaceButton")
