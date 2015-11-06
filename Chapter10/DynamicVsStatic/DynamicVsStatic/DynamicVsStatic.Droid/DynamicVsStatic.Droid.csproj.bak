@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2C0B1951-474D-48A2-97B4-169EFF46E98B}</ProjectGuid>
+    <ProjectGuid>{A3ADF6B6-D2EF-45EA-932A-96C71184344A}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CustomExtensionDemo.Droid</RootNamespace>
-    <AssemblyName>CustomExtensionDemo.Droid</AssemblyName>
+    <RootNamespace>DynamicVsStatic.Droid</RootNamespace>
+    <AssemblyName>DynamicVsStatic.Droid</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -22,8 +22,8 @@
     <MandroidI18n />
     <JavaMaximumHeapSize />
     <JavaOptions />
-    <NuGetPackageImportStamp>a91eb9cf</NuGetPackageImportStamp>
-    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <NuGetPackageImportStamp>9a74af07</NuGetPackageImportStamp>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -108,8 +108,8 @@
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CustomExtensionDemo\CustomExtensionDemo.csproj">
-      <Name>CustomExtensionDemo</Name>
+    <ProjectReference Include="..\DynamicVsStatic\DynamicVsStatic.csproj">
+      <Name>DynamicVsStatic</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
