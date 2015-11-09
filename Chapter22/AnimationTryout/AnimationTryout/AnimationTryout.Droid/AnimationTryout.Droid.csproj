@@ -22,8 +22,7 @@
     <MandroidI18n />
     <JavaMaximumHeapSize />
     <JavaOptions />
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
-    <NuGetPackageImportStamp>64b392bb</NuGetPackageImportStamp>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>    <NuGetPackageImportStamp>64b392bb</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
