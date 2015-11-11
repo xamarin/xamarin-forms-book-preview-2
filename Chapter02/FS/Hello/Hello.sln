@@ -15,6 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.WinPhone81", "Hello.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.WinApp", "Hello.WinApp\Hello.WinApp.csproj", "{3409071E-8C7E-43FE-B4B8-F00CCD6F0DFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.UWP", "Hello.UWP\Hello.UWP.csproj", "{BB72DE42-5567-49CC-84D7-9DAE95E1F81F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
