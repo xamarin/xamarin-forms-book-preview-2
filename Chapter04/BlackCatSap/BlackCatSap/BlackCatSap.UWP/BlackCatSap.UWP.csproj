@@ -130,12 +130,7 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BlackCatSap\BlackCatSap.csproj">
-      <Project>{6ED5B755-AFDB-4223-95BA-6DF1B928E5F0}</Project>
-      <Name>BlackCatSap</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <Import Project="..\BlackCatSap\BlackCatSap.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
