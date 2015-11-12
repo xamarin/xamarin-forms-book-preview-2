@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace StackRestoreDemo
 {
-    // Notice that App is derived from MultiPageRestoreableApp.
+    // Notice that App is derived from MultiPageRestorableApp.
     public class App : Xamarin.FormsBook.Toolkit.MultiPageRestorableApp
     {
         public App()
