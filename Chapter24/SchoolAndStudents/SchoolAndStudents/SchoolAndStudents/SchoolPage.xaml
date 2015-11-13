@@ -8,7 +8,7 @@
         <Label Text="{Binding School}"
                FontSize="Large"
                FontAttributes="Bold"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
         
         <ListView x:Name="listView"
                   ItemsSource="{Binding Students}"

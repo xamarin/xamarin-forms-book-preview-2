@@ -13,7 +13,7 @@ type SimplestKeypadPage() =
     // First row is the display Label.
     let displayLabel = Label(FontSize = Device.GetNamedSize(NamedSize.Large, typeof<Label>),
                              VerticalOptions = LayoutOptions.Center,
-                             XAlign = TextAlignment.End)
+                             HorizontalTextAlignment = TextAlignment.End)
 
     do mainStack.Children.Add displayLabel
 

@@ -19,7 +19,7 @@
             
             <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
                 <Setter Property="FontSize" Value="Large" />
-                <Setter Property="XAlign" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
             </Style>
 
             <Style TargetType="Slider" BasedOn="{StaticResource baseStyle}" />

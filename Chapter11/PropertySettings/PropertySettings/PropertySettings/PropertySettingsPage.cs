@@ -16,7 +16,7 @@ namespace PropertySettings
             label1.Text = "Text with CLR properties";
             label1.IsVisible = true;
             label1.Opacity = 0.75;
-            label1.XAlign = TextAlignment.Center;
+            label1.HorizontalTextAlignment = TextAlignment.Center;
             label1.VerticalOptions = LayoutOptions.CenterAndExpand;
             label1.TextColor = Color.Blue;
             label1.BackgroundColor = Color.FromRgb(255, 128, 128);

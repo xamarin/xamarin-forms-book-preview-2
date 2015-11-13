@@ -16,7 +16,7 @@
             <toolkit:DoubleToIntConverter x:Key="doubleToInt" />
 
             <Style x:Key="baseStyle" TargetType="Label">
-                <Setter Property="XAlign" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
             </Style>
 
             <Style x:Key="unselectedStyle" TargetType="Label"

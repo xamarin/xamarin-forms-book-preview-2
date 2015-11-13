@@ -8,7 +8,7 @@
                 <Label Text="Hello from XAML!"
                        IsVisible="True"
                        Opacity="0.75"
-                       XAlign="Center"
+                       HorizontalTextAlignment="Center"
                        VerticalOptions="CenterAndExpand"
                        TextColor="Blue"
                        BackgroundColor="#FF8080"

@@ -22,7 +22,7 @@
         <Label Text="{Binding Source={x:Reference xSlider},
                               Path=Value,
                               StringFormat='TranslationX = {0:F0}'}"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
 
         <Slider x:Name="ySlider"
                 Minimum="-200"
@@ -34,6 +34,6 @@
         <Label Text="{Binding Source={x:Reference ySlider},
                               Path=Value,
                               StringFormat='TranslationY = {0:F0}'}"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
     </StackLayout>
 </ContentPage>

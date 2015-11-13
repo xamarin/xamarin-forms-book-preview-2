@@ -12,8 +12,8 @@
             <Style x:Key="baseStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="Gray" />
                 <Setter Property="FontSize" Value="Medium" />
-                <Setter Property="XAlign" Value="Center" />
-                <Setter Property="YAlign" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
             </Style>
 
             <Style x:Key="selectedStyle" TargetType="Label"

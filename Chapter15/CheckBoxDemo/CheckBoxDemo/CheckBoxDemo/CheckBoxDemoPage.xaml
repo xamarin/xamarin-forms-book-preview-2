@@ -23,7 +23,7 @@
 "Just a little passage of some sample text that can be formatted
 in italic or boldface by toggling the two custom CheckBox views."
                FontSize="Large"
-               XAlign="Center"
+               HorizontalTextAlignment="Center"
                VerticalOptions="CenterAndExpand" />
     </StackLayout>
 </ContentPage>

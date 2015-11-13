@@ -19,7 +19,7 @@
         </Button>
 
         <Label VerticalOptions="CenterAndExpand"
-               XAlign="Center"
+               HorizontalTextAlignment="Center"
                FontSize="Large">
             <Label.FormattedText>
                 <FormattedString>

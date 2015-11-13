@@ -13,7 +13,7 @@
                               Path=Value,
                               StringFormat='The Stepper value is {0}'}"
                VerticalOptions="CenterAndExpand"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
     </StackLayout>
 </ContentPage>
 

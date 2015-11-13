@@ -22,7 +22,7 @@ namespace VerticalOptionsDemo
                 {
                     Text = "VerticalOptions = " + field.Name,
                     VerticalOptions = (LayoutOptions)field.GetValue(null),
-                    XAlign = TextAlignment.Center,
+                    HorizontalTextAlignment = TextAlignment.Center,
                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                     TextColor = colors[flipFlopper],
                     BackgroundColor = colors[flipFlopper = 1 - flipFlopper]

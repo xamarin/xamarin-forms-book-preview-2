@@ -15,7 +15,7 @@ type VerticalOptionsDemoPage() =
         |> Seq.sortBy (fun field -> (field.GetValue(null) :?> LayoutOptions).Alignment)
         |> Seq.map (fun field -> Label(Text = "VerticalOptions = " + field.Name,
                                        VerticalOptions = (field.GetValue(null) :?> LayoutOptions),
-                                       XAlign = TextAlignment.Center,
+                                       HorizontalTextAlignment = TextAlignment.Center,
                                        FontSize = Device.GetNamedSize(NamedSize.Medium, typeof<Label>),
                                        TextColor = colors.[stackLayout.Children.Count % 2],
                                        BackgroundColor = colors.[1 - stackLayout.Children.Count % 2]))

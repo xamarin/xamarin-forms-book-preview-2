@@ -13,6 +13,6 @@
                               Path=Text,
                               StringFormat='You typed the text &quot;{0}&quot;'}"
                VerticalOptions="CenterAndExpand"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
     </StackLayout>
 </ContentPage>

@@ -39,7 +39,7 @@
 in italic or boldface by toggling the two custom CheckBox views."
                FontSize="Large"
                VerticalOptions="CenterAndExpand">
-            <Label.XAlign>
+            <Label.HorizontalTextAlignment>
                 <Binding Source="{x:Reference centerCheckBox}"
                          Path="IsChecked">
                     <Binding.Converter>
@@ -48,7 +48,7 @@ in italic or boldface by toggling the two custom CheckBox views."
                                                        FalseObject="Start" />
                     </Binding.Converter>
                 </Binding>
-            </Label.XAlign>
+            </Label.HorizontalTextAlignment>
         </Label>
         
     </StackLayout>

@@ -9,7 +9,7 @@
         <Label x:Name="displayLabel"
                FontSize="Large"
                VerticalOptions="Center"
-               XAlign="End" />
+               HorizontalTextAlignment="End" />
 
         <Button x:Name="backspaceButton"
                 Text="&#x21E6;"
