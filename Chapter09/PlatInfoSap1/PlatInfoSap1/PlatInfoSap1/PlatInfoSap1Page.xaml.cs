@@ -13,6 +13,9 @@ using Microsoft.Phone.Info;
 #elif WINDOWS_APP || WINDOWS_PHONE_APP
 using Windows.Security.ExchangeActiveSyncProvisioning;
 
+#elif WINDOWS_UWP
+using Windows.Security.ExchangeActiveSyncProvisioning;
+
 #endif
 
 namespace PlatInfoSap1
@@ -49,6 +52,12 @@ namespace PlatInfoSap1
                                                        devInfo.SystemProductName);
             versionLabel.Text = devInfo.OperatingSystem;
 
+#elif WINDOWS_UWP
+
+            EasClientDeviceInformation devInfo = new EasClientDeviceInformation();
+            modelLabel.Text = String.Format("{0} {1}", devInfo.SystemManufacturer, 
+                                                       devInfo.SystemProductName);
+            versionLabel.Text = devInfo.OperatingSystem;
 #endif
 
         }

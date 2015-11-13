@@ -21,8 +21,8 @@ namespace PlatformBitmaps
                         iOS = "Icon-Small-40.png",
                         Android = "icon.png",
                         WinPhone = "Assets/ApplicationIcon.png",
-                        WindowsStore = "Assets/Logo.png",
-                        WindowsPhoneStore = "Assets/SmallLogo.png"
+                        WindowsStore = "Assets/StoreLogo.png",
+                        WindowsPhoneStore = "Assets/StoreLogo.png"
                     }
 
                     // File =   Device.OnPlatform(iOS: "Icon-Small-40.png",
