@@ -59,3 +59,10 @@ All solutions have been upgraded to Xamarin.Forms 1.5.1.6471.
 
 Two programs towards the end of Chapter 19 (**ConditionalCells** and **ConditionalSection**) previously did not work on Windows Phone, and the screenshot in the chapter showed a gray screen for that platform. The programs now run on Windows Phone as of version 1.4.4.6392 and the chapter has been updated.
 
+### The Universal Windows Platform (UWP) (November 13, 2015)
+
+All solutions now have a project with the extension **UWP**. This is a project that targets the Universal Windows Platform, which is implemented by Windows 10 and Windows Mobile 10.
+
+With Xamarin.Forms 1.5.1.6471, these projects actually target the the Windows Runtime API (also known as the Windows Store API), which is a subset of the UWP, so these projects are basically the same as the **WinApp** projects.
+
+To specifically target the UWP at the current time, you will need to download a ZIP file for a NuGet package with the version number 1.5.1.6466-pre2, and install that. This process is discussed in the Forums post [Xamarin.Forms for UWP Preview Now Available](https://forums.xamarin.com/discussion/54401/xamarin-forms-for-uwp-preview-now-available).
