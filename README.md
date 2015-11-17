@@ -5,19 +5,6 @@ Chapters of the book can be downloaded from http://developer.xamarin.com/guides/
 
 ## Notes
 
-### Now with Windows Runtime Projects!
-
-Two additional projects have been added to every solution with the suffixes **WinApp** and **WinPhone81**. These projects target the Windows Runtime API in Windows 8.1 and Windows Phone 8.1, respectively.
-
-The following problems will be experienced in the sample programs with the **WinApp** and **WinPhone81** projects:
-
-- Font sizes are somewhat erratic
-- `Device.OnPlatform` and `OnPlatform` don't account for the two new platforms (but see below)
-- The SAP programs in Chapter 9 won't compile
-- Some of the programs in Chapter 13 don't work (but see below)
-
-To add the Windows Runtime projects to your own Xamarin.Forms solutions, see http://developer.xamarin.com/guides/cross-platform/xamarin-forms/windows/.
-
 ### Loading the NuGet Packages
 
 The Xamarin.Forms NuGet packages are not part of these projects. They must be downloaded for each project.
@@ -57,6 +44,14 @@ These should be considered "experimental" at this point. None of the F# projects
 
 All solutions have been upgraded to Xamarin.Forms 2.0.0.6482. 
 `XAlign` and `YAlign` are now considered obsolete and have been replaced with `HorizontalContentAlignment` and `VerticalContentAlignment`.
+
+### Additional Projects
+
+The standard Xamarin.Forms template creates a solution with four projects: the common PCL, and application projects for iOS, Android, and Windows Phone 8.
+
+Three more application projects have been added to every solution:
+
+Two projects with the suffixes **WinApp** and **WinPhone81** target the Windows Runtime API in Windows 8.1 and Windows Phone 8.1, respectively.
 
 All solutions also now have a project with the extension **UWP**. 
 This project targets the Universal Windows Platform, which is implemented by Windows 10 and Windows Mobile 10. 
