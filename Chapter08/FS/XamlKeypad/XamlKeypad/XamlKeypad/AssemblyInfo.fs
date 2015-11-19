@@ -4,7 +4,6 @@ open System.Resources
 open System.Reflection
 open System.Runtime.CompilerServices
 open System.Runtime.InteropServices
-open Xamarin.Forms.Xaml
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
@@ -18,9 +17,6 @@ open Xamarin.Forms.Xaml
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
 [<assembly: NeutralResourcesLanguage("en")>]
-
-// Enable Xamarin.Forms XAML compilation.
-[<assembly: XamlCompilation (XamlCompilationOptions.Compile)>]
 
 // Version information for an assembly consists of the following four values:
 // 
