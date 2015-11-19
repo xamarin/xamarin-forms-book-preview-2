@@ -24,7 +24,7 @@ namespace PalindromeAnimation
                 Label label = new Label
                 {
                     Text = text[i].ToString(),
-                    XAlign = TextAlignment.Center
+                    HorizontalTextAlignment = TextAlignment.Center
                 };
                 stackLayout.Children.Add(label);
             }

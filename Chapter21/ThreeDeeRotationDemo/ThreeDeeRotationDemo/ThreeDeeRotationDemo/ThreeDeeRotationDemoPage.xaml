@@ -22,7 +22,7 @@
         <Label Text="{Binding Source={x:Reference rotationXSlider},
                               Path=Value,
                               StringFormat='RotationX = {0:F0}'}"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
 
         <Slider x:Name="rotationYSlider"
                 Maximum="360"
@@ -33,7 +33,7 @@
         <Label Text="{Binding Source={x:Reference rotationYSlider},
                               Path=Value,
                               StringFormat='RotationY = {0:F0}'}"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
 
         <Slider x:Name="rotationZSlider"
                 Maximum="360"
@@ -44,7 +44,7 @@
         <Label Text="{Binding Source={x:Reference rotationZSlider},
                               Path=Value,
                               StringFormat='Rotation(Z) = {0:F0}'}"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
 
         <StackLayout Orientation="Horizontal"
                      HorizontalOptions="Center">

@@ -16,7 +16,7 @@
                 </Style>
 
                 <Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
-                    <Setter Property="XAlign" Value="Center" />
+                    <Setter Property="HorizontalTextAlignment" Value="Center" />
                 </Style>
             </ResourceDictionary>
         </StackLayout.Resources>

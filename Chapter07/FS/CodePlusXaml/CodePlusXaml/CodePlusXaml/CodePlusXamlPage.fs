@@ -15,7 +15,7 @@ type CodePlusXamlPage() =
     let label = Label(Text = "Hello from Code!",
                       IsVisible = true,
                       Opacity = 0.75,
-                      XAlign = TextAlignment.Center,
+                      HorizontalTextAlignment = TextAlignment.Center,
                       VerticalOptions = LayoutOptions.CenterAndExpand,
                       TextColor = Color.Blue,
                       BackgroundColor = Color.FromRgb(255, 128, 128),

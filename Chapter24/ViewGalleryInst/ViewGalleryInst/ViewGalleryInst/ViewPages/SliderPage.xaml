@@ -12,6 +12,6 @@
                               Path=Value,
                               StringFormat='The Slider value is {0}'}"
                VerticalOptions="CenterAndExpand"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
     </StackLayout>
 </ContentPage>

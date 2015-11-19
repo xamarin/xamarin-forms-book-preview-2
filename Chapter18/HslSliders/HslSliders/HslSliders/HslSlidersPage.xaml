@@ -20,7 +20,7 @@
             <ResourceDictionary>
                 <Style TargetType="Label">
                     <Setter Property="FontSize" Value="Large" />
-                    <Setter Property="XAlign" Value="Center" />
+                    <Setter Property="HorizontalTextAlignment" Value="Center" />
                 </Style>
             </ResourceDictionary>
         </Grid.Resources>

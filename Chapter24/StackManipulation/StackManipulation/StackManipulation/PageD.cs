@@ -57,7 +57,7 @@ namespace StackManipulation
                         Text = "Page D",
                         FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                         VerticalOptions=LayoutOptions.CenterAndExpand,
-                        XAlign = TextAlignment.Center
+                        HorizontalTextAlignment = TextAlignment.Center
                     },
                     homeButton,
                     swapButton

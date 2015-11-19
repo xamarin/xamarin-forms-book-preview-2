@@ -22,7 +22,7 @@ namespace PersistentKeypad
             {
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                 VerticalOptions = LayoutOptions.Center,
-                XAlign = TextAlignment.End
+                HorizontalTextAlignment = TextAlignment.End
             };
             mainStack.Children.Add(displayLabel);
 

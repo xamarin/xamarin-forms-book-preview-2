@@ -5,19 +5,6 @@ Chapters of the book can be downloaded from http://developer.xamarin.com/guides/
 
 ## Notes
 
-### Now with Windows Runtime Projects!
-
-Two additional projects have been added to every solution with the suffixes **WinApp** and **WinPhone81**. These projects target the Windows Runtime API in Windows 8.1 and Windows Phone 8.1, respectively.
-
-The following problems will be experienced in the sample programs with the **WinApp** and **WinPhone81** projects:
-
-- Font sizes are somewhat erratic
-- `Device.OnPlatform` and `OnPlatform` don't account for the two new platforms (but see below)
-- The SAP programs in Chapter 9 won't compile
-- Some of the programs in Chapter 13 don't work (but see below)
-
-To add the Windows Runtime projects to your own Xamarin.Forms solutions, see http://developer.xamarin.com/guides/cross-platform/xamarin-forms/windows/.
-
 ### Loading the NuGet Packages
 
 The Xamarin.Forms NuGet packages are not part of these projects. They must be downloaded for each project.
@@ -53,16 +40,51 @@ The solutions in Chapter 3 through 6 were created from the normal Xamarin.Forms 
 
 These should be considered "experimental" at this point. None of the F# projects run on Windows Phone 8, and others that use reflection have issues with the two Windows Runtime platforms.
 
-### Upgrade to version 1.5.1.6471 (November 6, 2015)
+### Upgrade to version 2.0.0.6482 (November 17, 2015)
 
-All solutions have been upgraded to Xamarin.Forms 1.5.1.6471. 
+All solutions have been upgraded to Xamarin.Forms 2.0.0.6482. 
+`XAlign` and `YAlign` are now considered obsolete and have been replaced with `HorizontalContentAlignment` and `VerticalContentAlignment`.
 
-Two programs towards the end of Chapter 19 (**ConditionalCells** and **ConditionalSection**) previously did not work on Windows Phone, and the screenshot in the chapter showed a gray screen for that platform. The programs now run on Windows Phone as of version 1.4.4.6392 and the chapter has been updated.
+### Additional Projects
 
-### The Universal Windows Platform (UWP) (November 13, 2015)
+The standard Xamarin.Forms template creates a solution with four projects: the common PCL, and application projects for iOS, Android, and Windows Phone 8.
 
-All solutions now have a project with the extension **UWP**. This is a project that targets the Universal Windows Platform, which is implemented by Windows 10 and Windows Mobile 10.
+Three more application projects have been added to every solution:
 
-With Xamarin.Forms 1.5.1.6471, these projects actually target the the Windows Runtime API (also known as the Windows Store API), which is a subset of the UWP, so these projects are basically the same as the **WinApp** projects.
+Two projects with the suffixes **WinApp** and **WinPhone81** target the Windows Runtime API in Windows 8.1 and Windows Phone 8.1, respectively.
 
-To specifically target the UWP at the current time, you will need to download a ZIP file for a NuGet package with the version number 1.5.1.6466-pre2, and install that. This process is discussed in the Forums post [Xamarin.Forms for UWP Preview Now Available](https://forums.xamarin.com/discussion/54401/xamarin-forms-for-uwp-preview-now-available).
+All solutions also now have a project with the extension **UWP**. 
+This project targets the Universal Windows Platform, which is implemented by Windows 10 and Windows Mobile 10. 
+The UWP support in Xamarin.Forms should be considered "preview support" at this time. Some features might not be fully implemented.
+
+You can deploy the **UWP** project to devices or emulators. 
+However, you must select the correct platform for the deployment target. 
+You generally do this by selecting a platform for the solution in the **Solution Platform** dropdown on the **Standard** toolbar.
+Or, you can invoke the **Configuration Manager** dialog form the **Build | Configuration Manager** menu item, and select an item from the **Active solution platform** dropdown at the top right.
+
+The six possible **Solution Platform** options are listed below. 
+Each is associated with a particular platform for the **UWP** project. 
+This platform refers to processor architectures:
+
+- Any CPU: UWP platform is x86
+- ARM: UWP platform is ARM
+- iPhone: UWP platform is x86
+- iPhone Simulator: UWP platform is x86
+- x86: UWP platform is x86
+- x64: UWP platform is x64
+
+These reflect the only three possibilities for the **UWP** project. 
+As you can see, x86 (32-bit Intel architecture) is considered to be the default.
+
+Currently, you can deploy the **UWP** project in several different ways based on a selection in the dropdown on the **Standard** toolbar.
+
+- Select **Local Machine** to deploy directly to the Windows 10 desktop. The **UWP** platform must be x86 or x64.
+
+- Select **Simulator** to deploy to a Windows 10 simulator window. The **UWP** platform must be x86.
+
+- Select one of the items beginning with the words **Mobile Emulator 10.0** to deploy to a Windows 10 Mobile emulator. The **UWP** platform must be x86.
+
+- Select **Device** to deploy to a Windows 10 Mobile device. These devices are expected before the end of the year. The **UWP** platform must be ARM.
+
+
+

@@ -23,6 +23,6 @@
         <Label Text="{Binding Source={x:Reference scaleSlider},
                               Path=Value,
                               StringFormat='Scale = {0:F1}'}"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
     </StackLayout>
 </ContentPage>

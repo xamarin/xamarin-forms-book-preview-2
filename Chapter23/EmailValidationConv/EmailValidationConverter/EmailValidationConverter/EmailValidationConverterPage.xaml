@@ -15,8 +15,8 @@
                 </Entry.Behaviors>
             </Entry>
 
-            <Label XAlign="Center"
-                   YAlign="Center">
+            <Label HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center">
                 <Label.Text>
                     <Binding Source="{x:Reference validEmail}"
                              Path="IsValid">

@@ -64,10 +64,10 @@
         <StackLayout VerticalOptions="CenterAndExpand"
                      HorizontalOptions="Center">
             <Label x:Name="solution1Label"
-                   XAlign="Center" />
+                   HorizontalTextAlignment="Center" />
 
             <Label x:Name="solution2Label"
-                   XAlign="Center" />
+                   HorizontalTextAlignment="Center" />
         </StackLayout>
     </StackLayout>
 </ContentPage>

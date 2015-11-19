@@ -28,7 +28,7 @@
 "Just a little passage of some sample text that can be formatted
 in italic or boldface by toggling the two Switch elements."
                FontSize="Large"
-               XAlign="Center"
+               HorizontalTextAlignment="Center"
                VerticalOptions="CenterAndExpand" />
         
     </StackLayout>

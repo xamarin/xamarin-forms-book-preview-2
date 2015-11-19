@@ -21,7 +21,7 @@
                 <Label Text="{Binding}"
                        FontSize="Large"
                        FontAttributes="Bold, Italic"
-                       XAlign="Center" />
+                       HorizontalTextAlignment="Center" />
             </DataTemplate>
         </ListView.HeaderTemplate>
         

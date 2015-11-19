@@ -17,7 +17,7 @@
                TextColor="{x:Static local:AppConstants.DarkForeground}"
                FontSize="{x:Static local:AppConstants.TitleFontSize}"
                FontAttributes="{x:Static local:AppConstants.TitleAttribute}"
-               XAlign="{x:Static local:AppConstants.TitleAlignment}" />
+               HorizontalTextAlignment="{x:Static local:AppConstants.TitleAlignment}" />
 
         <Label TextColor="{x:Static local:AppConstants.DarkForeground}" 
                FontSize="{x:Static local:AppConstants.NormalFontSize}">

@@ -65,7 +65,7 @@
                    FontSize="Large"
                    LineBreakMode="HeadTruncation"
                    VerticalOptions="Center"
-                   XAlign="End" />
+                   HorizontalTextAlignment="End" />
 
             <Button Text="C"
                     Grid.Row="1" Grid.Column="0"

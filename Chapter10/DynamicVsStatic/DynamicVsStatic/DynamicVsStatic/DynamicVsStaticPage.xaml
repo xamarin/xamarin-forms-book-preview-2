@@ -17,7 +17,7 @@
         
         <Label Text="{StaticResource currentDateTime}"
                VerticalOptions="StartAndExpand"
-               XAlign="Center"
+               HorizontalTextAlignment="Center"
                FontSize="Large" />
 
         <Label Text="DynamicResource on Label.Text:"
@@ -26,7 +26,7 @@
 
         <Label Text="{DynamicResource currentDateTime}"
                VerticalOptions="StartAndExpand"
-               XAlign="Center"
+               HorizontalTextAlignment="Center"
                FontSize="Large" />
         
         <Label Text="StaticResource on Span.Text:"
@@ -34,7 +34,7 @@
                FontSize="Large" />
 
         <Label VerticalOptions="StartAndExpand"
-               XAlign="Center"
+               HorizontalTextAlignment="Center"
                FontSize="Large">
             <Label.FormattedText>
                 <FormattedString>
@@ -50,7 +50,7 @@
                FontSize="Large" />
 
         <Label VerticalOptions="StartAndExpand"
-               XAlign="Center"
+               HorizontalTextAlignment="Center"
                FontSize="Large">
             <Label.FormattedText>
                 <FormattedString>

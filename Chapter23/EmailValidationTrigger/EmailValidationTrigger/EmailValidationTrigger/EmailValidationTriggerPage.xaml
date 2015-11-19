@@ -16,8 +16,8 @@
             </Entry>
 
             <Label Text="Not yet!"
-                   XAlign="Center"
-                   YAlign="Center">
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center">
                 <Label.Triggers>
                     <DataTrigger TargetType="Label"
                                  Binding="{Binding Source={x:Reference validEmail},

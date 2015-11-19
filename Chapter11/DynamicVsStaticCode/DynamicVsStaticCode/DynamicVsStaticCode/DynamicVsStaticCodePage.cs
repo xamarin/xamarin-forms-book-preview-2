@@ -30,7 +30,7 @@ namespace DynamicVsStaticCode
                     {
                         Text = (string)Resources["currentDateTime"],
                         VerticalOptions = LayoutOptions.StartAndExpand,
-                        XAlign = TextAlignment.Center,
+                        HorizontalTextAlignment = TextAlignment.Center,
                         FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
                     },
 
@@ -47,7 +47,7 @@ namespace DynamicVsStaticCode
             Label label = new Label
             {
                 VerticalOptions = LayoutOptions.StartAndExpand,
-                XAlign = TextAlignment.Center,
+                HorizontalTextAlignment = TextAlignment.Center,
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
             };
 

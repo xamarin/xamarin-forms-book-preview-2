@@ -81,7 +81,7 @@
 
                 <Label Text="{Binding TargetCenter, StringFormat='{0}'}"
                        FontSize="Small"
-                       XAlign="Center" />
+                       HorizontalTextAlignment="Center" />
             </StackLayout>
 
             <Grid VerticalOptions="CenterAndExpand">

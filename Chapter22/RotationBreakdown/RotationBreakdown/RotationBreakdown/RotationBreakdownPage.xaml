@@ -26,7 +26,7 @@
 rotation angles on two BoxView elements fall out of sync and a hidden 
 BoxView comes into view. The two rotation angles then continue to deviate."
                Grid.Row="0"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
 
         <BoxView x:Name="underBoxView" Grid.Row="1" Color="Red" />
 
@@ -37,6 +37,6 @@ BoxView comes into view. The two rotation angles then continue to deviate."
                Grid.Row="2"
                FontSize="Large"
                TextColor="Black"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
     </Grid>
 </ContentPage>

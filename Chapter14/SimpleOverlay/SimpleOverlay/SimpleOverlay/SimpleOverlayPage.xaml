@@ -11,7 +11,7 @@ that the only functional user-interface object on the page
 is a Button."
                    FontSize="Large"
                    VerticalOptions="CenterAndExpand"
-                   XAlign="Center" />
+                   HorizontalTextAlignment="Center" />
 
             <Button Text="Run 5-Second Job"
                     FontSize="Large"
@@ -30,7 +30,7 @@ that the only functional user-interface object on the page
 is the Button."
                    FontSize="Large"
                    VerticalOptions="CenterAndExpand"
-                   XAlign="Center" />
+                   HorizontalTextAlignment="Center" />
         </StackLayout> 
         
         <!-- Overlay -->

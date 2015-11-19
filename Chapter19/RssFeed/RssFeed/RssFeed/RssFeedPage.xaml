@@ -23,7 +23,7 @@
 
             <Label Text="{Binding Title}"
                    FontAttributes="Bold"
-                   XAlign="Center" />
+                   HorizontalTextAlignment="Center" />
 
             <ListView x:Name="listView" 
                       ItemsSource="{Binding Items}"

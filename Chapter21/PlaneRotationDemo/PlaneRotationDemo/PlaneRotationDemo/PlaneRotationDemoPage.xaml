@@ -22,7 +22,7 @@
         <Label Text="{Binding Source={x:Reference rotationSlider},
                               Path=Value,
                               StringFormat='Rotation = {0:F0}'}"
-               XAlign="Center" />
+               HorizontalTextAlignment="Center" />
 
         <StackLayout Orientation="Horizontal"
                      HorizontalOptions="Center">

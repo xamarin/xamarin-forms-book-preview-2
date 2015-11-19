@@ -21,7 +21,7 @@
                            TargetType="Label"
                            BaseResourceKey="TitleStyle">
                         <Setter Property="TextColor" Value="Black" />
-                        <Setter Property="XAlign" Value="Center" />
+                        <Setter Property="HorizontalTextAlignment" Value="Center" />
                     </Style>
                     
                     <!-- Implicit styles -->
@@ -63,7 +63,7 @@
 
             <Label Style="{DynamicResource SubtitleStyle}"
                    TextColor="Black"
-                   XAlign="Center">
+                   HorizontalTextAlignment="Center">
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="Chapter VII" />
