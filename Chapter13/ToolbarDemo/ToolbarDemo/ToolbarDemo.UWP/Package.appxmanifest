@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Package
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="3cab0752-ad37-4539-9386-6dcc97fdb1ef"
+    Name="bf0f6196-32c9-4c46-954a-466105420b01"
     Publisher="CN=Charles"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="3cab0752-ad37-4539-9386-6dcc97fdb1ef" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="bf0f6196-32c9-4c46-954a-466105420b01" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>ToolbarDemo.UWP</DisplayName>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Package
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="3cab0752-ad37-4539-9386-6dcc97fdb1ef"
+    Name="a2aacb3f-e75f-4633-a0c3-78125506f62d"
     Publisher="CN=Charles"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="3cab0752-ad37-4539-9386-6dcc97fdb1ef" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="a2aacb3f-e75f-4633-a0c3-78125506f62d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>CopterAnimation.UWP</DisplayName>
