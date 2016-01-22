@@ -10,10 +10,7 @@ using Android.OS;
 #elif WINDOWS_PHONE
 using Microsoft.Phone.Info;
 
-#elif WINDOWS_APP || WINDOWS_PHONE_APP
-using Windows.Security.ExchangeActiveSyncProvisioning;
-
-#elif WINDOWS_UWP
+#elif WINDOWS_APP || WINDOWS_PHONE_APP || WINDOWS_UWP
 using Windows.Security.ExchangeActiveSyncProvisioning;
 
 #endif
@@ -41,18 +38,11 @@ namespace PlatInfoSap1
 
 #elif WINDOWS_PHONE
 
-            modelLabel.Text = String.Format("{0} {1}", DeviceStatus.DeviceManufacturer, 
+            modelLabel.Text = String.Format("{0} {1}", DeviceStatus.DeviceManufacturer,
                                                        DeviceStatus.DeviceName);
             versionLabel.Text = Environment.OSVersion.ToString();
 
-#elif WINDOWS_APP || WINDOWS_PHONE_APP
-
-            EasClientDeviceInformation devInfo = new EasClientDeviceInformation();
-            modelLabel.Text = String.Format("{0} {1}", devInfo.SystemManufacturer, 
-                                                       devInfo.SystemProductName);
-            versionLabel.Text = devInfo.OperatingSystem;
-
-#elif WINDOWS_UWP
+#elif WINDOWS_APP || WINDOWS_PHONE_APP || WINDOWS_UWP
 
             EasClientDeviceInformation devInfo = new EasClientDeviceInformation();
             modelLabel.Text = String.Format("{0} {1}", devInfo.SystemManufacturer, 
