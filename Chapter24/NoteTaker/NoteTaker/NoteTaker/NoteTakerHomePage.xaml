@@ -18,9 +18,9 @@
     </ListView>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Name="Add Note"
+        <ToolbarItem Text="Add Note"
                      Order="Primary"
-                     Activated="OnAddNoteActivated">
+                     Clicked="OnAddNoteClicked">
             <ToolbarItem.Icon>
                 <toolkit:ForPlatform x:TypeArguments="FileImageSource"
                                      iOS="new.png"

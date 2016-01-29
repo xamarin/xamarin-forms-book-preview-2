@@ -29,9 +29,9 @@
     </StackLayout>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Name="Cancel"
+        <ToolbarItem Text="Cancel"
                      Order="Primary"
-                     Activated="OnCancelActivated">
+                     Clicked="OnCancelClicked">
             <ToolbarItem.Icon>
                 <toolkit:ForPlatform x:TypeArguments="FileImageSource"
                                      iOS="cancel.png"
@@ -42,9 +42,9 @@
             </ToolbarItem.Icon>
         </ToolbarItem>
 
-        <ToolbarItem Name="Delete"
+        <ToolbarItem Text="Delete"
                      Order="Primary"
-                     Activated="OnDeleteActivated">
+                     Clicked="OnDeleteClicked">
             <ToolbarItem.Icon>
                 <toolkit:ForPlatform x:TypeArguments="FileImageSource"
                                      iOS="discard.png"

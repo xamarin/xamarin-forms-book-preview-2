@@ -113,7 +113,7 @@ namespace NoteTaker
             }
         }
 
-        async void OnCancelActivated(object sender, EventArgs args)
+        async void OnCancelClicked(object sender, EventArgs args)
         {
             if (await DisplayAlert("Note Taker", "Cancel note edit?",
                                                  "Yes", "No"))
@@ -126,7 +126,7 @@ namespace NoteTaker
             }
         }
 
-        async void OnDeleteActivated(object sender, EventArgs args)
+        async void OnDeleteClicked(object sender, EventArgs args)
         {
             if (await DisplayAlert("Note Taker", "Delete this note?",
                                                  "Yes", "No"))

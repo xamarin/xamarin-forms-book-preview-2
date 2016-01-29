@@ -27,7 +27,7 @@ namespace NoteTaker
             }
         }
 
-        async void OnAddNoteActivated(object sender, EventArgs args)
+        async void OnAddNoteClicked(object sender, EventArgs args)
         {
             // Create unique filename.
             DateTime dateTime = DateTime.UtcNow;
