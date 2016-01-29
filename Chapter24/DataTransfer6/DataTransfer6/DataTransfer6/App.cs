@@ -8,8 +8,7 @@ namespace DataTransfer6
     {
         public App()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.ObjectToIndexConverter<object>();
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
 
             // Load previous AppData if it exists.
             if (Properties.ContainsKey("appData"))

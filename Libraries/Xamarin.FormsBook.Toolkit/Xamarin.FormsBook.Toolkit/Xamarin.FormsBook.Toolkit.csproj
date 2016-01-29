@@ -89,6 +89,7 @@
     <Compile Include="ThresholdToObjectConverter.cs" />
     <Compile Include="ToggleBase.cs" />
     <Compile Include="ToggleBehavior.cs" />
+    <Compile Include="Toolkit.cs" />
     <Compile Include="TranslateAction.cs" />
     <Compile Include="ValidEmailBehavior.cs" />
     <Compile Include="ViewModelBase.cs" />

@@ -8,8 +8,7 @@ namespace DataTransfer5
     {
         public App()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.ObjectToIndexConverter<object>();
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
 
             // Instantiate AppData and set property.
             AppData = new AppData();

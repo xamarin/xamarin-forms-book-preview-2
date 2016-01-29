@@ -7,8 +7,7 @@ namespace ViewGalleryInst
     {
         public App()
         {
-            // Ensure link to Toolkit library.
-            Color color = Xamarin.FormsBook.Toolkit.NamedColor.AliceBlue;
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
 
             MainPage = new NavigationPage(new ViewGalleryInstPage());
         }
