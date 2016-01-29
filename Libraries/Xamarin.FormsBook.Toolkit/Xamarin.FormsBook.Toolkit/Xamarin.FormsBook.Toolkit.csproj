@@ -37,7 +37,6 @@
   <ItemGroup>
     <Compile Include="AdderViewModel.cs" />
     <Compile Include="AltLabel.cs" />
-    <Compile Include="AltLabelGeneric.cs" />
     <Compile Include="AnalogClockViewModel.cs" />
     <Compile Include="BaseTwoLogConverter.cs" />
     <Compile Include="BezierSpline.cs" />
