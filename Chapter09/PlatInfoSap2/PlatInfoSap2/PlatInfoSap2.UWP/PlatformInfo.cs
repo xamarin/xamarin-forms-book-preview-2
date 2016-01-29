@@ -1,6 +1,5 @@
 ﻿using System;
 using Windows.Security.ExchangeActiveSyncProvisioning;
-using Xamarin.Forms;
 
 namespace PlatInfoSap2
 {
