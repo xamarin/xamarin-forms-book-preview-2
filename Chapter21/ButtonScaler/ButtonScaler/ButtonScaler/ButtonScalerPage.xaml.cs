@@ -46,7 +46,6 @@ namespace ButtonScaler
                 await Task.Delay(16);
                 t = stopWatch.ElapsedMilliseconds / duration.TotalMilliseconds;
             }
-            while (t < 1);
 
             stopWatch.Stop();
             callback(fromValue);

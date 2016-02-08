@@ -7,6 +7,8 @@ namespace MinimalBoxViewClock
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new MinimalBoxViewClockPage();
         }
 

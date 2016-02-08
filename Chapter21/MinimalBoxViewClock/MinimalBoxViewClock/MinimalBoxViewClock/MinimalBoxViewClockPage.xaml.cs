@@ -7,9 +7,6 @@ namespace MinimalBoxViewClock
     {
         public MinimalBoxViewClockPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.SecondTickConverter();
-            
             InitializeComponent();
         }
 

@@ -32,7 +32,6 @@
     </ContentPage.Resources>
 
     <StackLayout BackgroundColor="{StaticResource backgroundColor}">
-
         <Grid>
             <Label Text="Shadow"
                    TextColor="{StaticResource foregroundColor}"

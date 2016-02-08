@@ -28,9 +28,6 @@ namespace BoxViewClock
 
         public BoxViewClockPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.SecondBackEaseConverter();
-
             InitializeComponent();
 
             // Create the tick marks (to be sized and positioned later)
@@ -43,7 +40,7 @@ namespace BoxViewClock
 
         void OnAbsoluteLayoutSizeChanged(object sender, EventArgs args)
         {
-            // Get the center and radius of the AbsoluteLayout
+            // Get the center and radius of the AbsoluteLayout.
             Point center = new Point(absoluteLayout.Width / 2, absoluteLayout.Height / 2);
             double radius = 0.45 * Math.Min(absoluteLayout.Width, absoluteLayout.Height);
 
