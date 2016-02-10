@@ -4,6 +4,6 @@
              x:Class="ViewGalleryInst.ImagePage"
              Title="Image">
 
-    <Image Source="http://developer.xamarin.com/guides/cross-platform/xamarin-forms/creating-mobile-apps-xamarin-forms/Images/Cover-Preview.png" />
+    <Image Source="https://developer.xamarin.com/guides/cross-platform/xamarin-forms/creating-mobile-apps-xamarin-forms/Images/Cover-Preview.png" />
     
 </ContentPage>

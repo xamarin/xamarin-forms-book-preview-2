@@ -17,7 +17,7 @@ namespace ApmToTap
         {
             try
             {
-                Stream stream = await GetStreamAsync("http://docs.xamarin.com/demo/IMG_1996.JPG"); 
+                Stream stream = await GetStreamAsync("https://developer.xamarin.com/demo/IMG_1996.JPG"); 
                 image.Source = ImageSource.FromStream(() => stream);
             }
             catch (Exception exc)

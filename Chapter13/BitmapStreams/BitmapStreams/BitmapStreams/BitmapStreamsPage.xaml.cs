@@ -22,7 +22,7 @@ namespace BitmapStreams
                 });
 
             // Load web bitmap.
-            Uri uri = new Uri("http://developer.xamarin.com/demo/IMG_0925.JPG?width=512");
+            Uri uri = new Uri("https://developer.xamarin.com/demo/IMG_0925.JPG?width=512");
             WebRequest request = WebRequest.Create (uri);
             request.BeginGetResponse((IAsyncResult arg) =>
                 {

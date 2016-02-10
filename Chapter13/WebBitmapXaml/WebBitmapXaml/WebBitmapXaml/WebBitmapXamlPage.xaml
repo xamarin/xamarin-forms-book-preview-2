@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WebBitmapXaml.WebBitmapXamlPage">
 
-    <Image Source="http://developer.xamarin.com/demo/IMG_3256.JPG" />
+    <Image Source="https://developer.xamarin.com/demo/IMG_3256.JPG" />
     
 </ContentPage>
