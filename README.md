@@ -86,5 +86,12 @@ Currently, you can deploy the **UWP** project in several different ways based on
 
 - Select **Device** to deploy to a Windows 10 Mobile device. These devices are expected before the end of the year. The **UWP** platform must be ARM.
 
+### Some Additional Changes (February 2016)
 
+Some programs aren't exactly has they appear in the book. 
 
+- The generic forms of the `BindableProperty.Create` methods are becoming deprecated, so they have been replaced with the non-generic methods. 
+
+- URIs -- mostly referencing stock photos on the Xamarin web site -- have been normalized.
+
+- The `Toolkit.Init` method in `Xamarin.FormsBook.Toolkit` is called from the `App` constructor in all programs that refererence something from the library from the XAML file but not from code. This is to ensure that the linker binds the toolkit library to the app. Formerly, these programs instantiated something in the library from the `App` constructor or the page constructor.
