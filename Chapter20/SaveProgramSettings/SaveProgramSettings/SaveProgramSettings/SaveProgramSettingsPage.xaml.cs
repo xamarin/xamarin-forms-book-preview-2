@@ -11,9 +11,6 @@ namespace SaveProgramSettings
 
         public SaveProgramSettingsPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.BoolToStringConverter();
-
             InitializeComponent();
 
             // Retrieve settings.

@@ -7,6 +7,8 @@ namespace EnterExitSwell
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new EnterExitSwellPage();
         }
 

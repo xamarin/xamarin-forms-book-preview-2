@@ -7,6 +7,8 @@ namespace EmailValidationTrigger
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new EmailValidationTriggerPage();
         }
 

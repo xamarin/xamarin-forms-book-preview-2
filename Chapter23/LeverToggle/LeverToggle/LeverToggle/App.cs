@@ -7,6 +7,8 @@ namespace LeverToggle
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new LeverTogglePage();
         }
 

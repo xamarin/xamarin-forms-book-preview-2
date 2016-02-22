@@ -7,6 +7,8 @@ namespace PickerBinding
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new PickerBindingPage();
         }
 

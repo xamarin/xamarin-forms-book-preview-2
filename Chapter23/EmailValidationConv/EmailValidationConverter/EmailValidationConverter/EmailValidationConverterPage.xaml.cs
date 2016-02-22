@@ -12,9 +12,6 @@ namespace EmailValidationConverter
     {
         public EmailValidationConverterPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.ValidEmailBehavior();
-
             InitializeComponent();
         }
     }

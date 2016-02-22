@@ -7,6 +7,8 @@ namespace ToggleLabel
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new ToggleLabelPage();
         }
 

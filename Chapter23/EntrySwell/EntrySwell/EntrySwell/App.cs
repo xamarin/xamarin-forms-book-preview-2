@@ -7,6 +7,8 @@ namespace EntrySwell
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new EntrySwellPage();
         }
 

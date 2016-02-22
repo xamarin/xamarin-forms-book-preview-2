@@ -12,9 +12,6 @@ namespace EnterExitSwell
     {
         public EnterExitSwellPage()
         {
-            // Ensure Toolkit is loaded.
-            new Xamarin.FormsBook.Toolkit.ScaleAction();
-
             InitializeComponent();
         }
     }

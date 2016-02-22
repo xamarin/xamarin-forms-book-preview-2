@@ -7,6 +7,8 @@ namespace SwitchText
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new SwitchTextPage();
         }
 

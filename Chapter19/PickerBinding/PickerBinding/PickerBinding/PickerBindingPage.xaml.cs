@@ -7,9 +7,6 @@ namespace PickerBinding
     {
         public PickerBindingPage()
         {
-            // Ensure link to library.
-            new Xamarin.FormsBook.Toolkit.ObjectToIndexConverter<bool>();
-
             InitializeComponent();
         }
     }

@@ -7,9 +7,6 @@ namespace ButtonEnabler
     {
         public ButtonEnablerPage()
         {
-            // Ensure that Toolkit library is linked.
-            new Xamarin.FormsBook.Toolkit.IntToBoolConverter();
-
             InitializeComponent();
         }
     }

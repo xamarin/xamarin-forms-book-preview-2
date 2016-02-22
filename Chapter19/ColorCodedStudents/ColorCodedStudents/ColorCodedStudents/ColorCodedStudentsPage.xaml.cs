@@ -9,7 +9,6 @@ namespace ColorCodedStudents
         {
             // Ensure links to libraries.
             new ElPasoHighSchool.SchoolViewModel();
-            new Xamarin.FormsBook.Toolkit.ThresholdToObjectConverter<Color>();
 
             InitializeComponent();
         }

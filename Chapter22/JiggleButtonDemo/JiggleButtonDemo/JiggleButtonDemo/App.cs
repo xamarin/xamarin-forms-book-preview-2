@@ -7,6 +7,8 @@ namespace JiggleButtonDemo
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new JiggleButtonDemoPage();
         }
 

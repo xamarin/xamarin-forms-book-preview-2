@@ -7,9 +7,6 @@ namespace EmailValidationDemo
     {
         public EmailValidationDemoPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.ValidEmailBehavior();
-
             InitializeComponent();
         }
     }

@@ -7,6 +7,8 @@ namespace ButtonGrowth
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new ButtonGrowthPage();
         }
 

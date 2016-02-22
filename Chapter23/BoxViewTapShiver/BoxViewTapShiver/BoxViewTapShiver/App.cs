@@ -7,6 +7,8 @@ namespace BoxViewTapShiver
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new BoxViewTapShiverPage();
         }
 

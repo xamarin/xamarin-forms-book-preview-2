@@ -7,6 +7,8 @@ namespace SaveProgramSettings
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new SaveProgramSettingsPage();
         }
 

@@ -7,6 +7,8 @@ namespace ShiverButtonDemo
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new ShiverButtonDemoPage();
         }
 

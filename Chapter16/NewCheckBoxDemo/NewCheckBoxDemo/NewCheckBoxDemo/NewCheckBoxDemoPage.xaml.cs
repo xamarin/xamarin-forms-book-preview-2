@@ -7,9 +7,6 @@ namespace NewCheckBoxDemo
     {
         public NewCheckBoxDemoPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.NewCheckBox();
-
             InitializeComponent();
         }
 

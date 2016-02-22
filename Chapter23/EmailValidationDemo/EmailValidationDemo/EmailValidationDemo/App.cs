@@ -7,6 +7,8 @@ namespace EmailValidationDemo
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new EmailValidationDemoPage();
         }
 

@@ -7,6 +7,8 @@ namespace MultiColorSliders
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new MultiColorSlidersPage();
         }
 

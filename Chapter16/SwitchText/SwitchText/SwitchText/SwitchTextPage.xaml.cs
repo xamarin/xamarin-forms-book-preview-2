@@ -12,9 +12,6 @@ namespace SwitchText
     {
         public SwitchTextPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.BoolToStringConverter();
-
             InitializeComponent();
         }
     }

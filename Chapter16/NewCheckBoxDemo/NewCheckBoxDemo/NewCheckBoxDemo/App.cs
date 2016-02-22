@@ -7,6 +7,8 @@ namespace NewCheckBoxDemo
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new NewCheckBoxDemoPage();
         }
 

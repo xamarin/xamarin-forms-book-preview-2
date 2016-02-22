@@ -7,9 +7,6 @@ namespace MultiColorSliders
     {
         public MultiColorSlidersPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.ColorViewModel();
-
             InitializeComponent();
         }
     }

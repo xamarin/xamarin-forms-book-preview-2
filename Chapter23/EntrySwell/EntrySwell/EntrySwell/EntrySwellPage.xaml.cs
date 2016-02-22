@@ -12,9 +12,6 @@ namespace EntrySwell
     {
         public EntrySwellPage()
         {
-            // Ensure Toolkit library is loaded.
-            new Xamarin.FormsBook.Toolkit.ScaleAction();
-
             InitializeComponent();
         }
     }

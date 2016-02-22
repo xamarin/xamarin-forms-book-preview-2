@@ -12,9 +12,6 @@ namespace ToggleLabel
     {
         public ToggleLabelPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.ToggleBehavior();
-
             InitializeComponent();
         }
     }

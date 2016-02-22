@@ -12,9 +12,6 @@ namespace JiggleButtonDemo
     {
         public JiggleButtonDemoPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.JiggleButton();
-
             InitializeComponent();
         }
     }

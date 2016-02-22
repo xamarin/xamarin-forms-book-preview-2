@@ -7,9 +7,6 @@ namespace ShiverViews
     {
         public ShiverView()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.TapBehavior();
-
             InitializeComponent();
         }
     }

@@ -7,9 +7,6 @@ namespace TriggerEntryValidation
     {
         public TriggerEntryValidationPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.NumericValidationAction();
-
             InitializeComponent();
         }
     }

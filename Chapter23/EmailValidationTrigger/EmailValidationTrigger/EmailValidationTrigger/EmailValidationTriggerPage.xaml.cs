@@ -7,9 +7,6 @@ namespace EmailValidationTrigger
     {
         public EmailValidationTriggerPage()
         {
-            // Ensure link to Toolkit library.
-            new Xamarin.FormsBook.Toolkit.ValidEmailBehavior();
-
             InitializeComponent();
         }
     }
