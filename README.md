@@ -95,3 +95,5 @@ Some programs aren't exactly has they appear in the book.
 - URIs -- mostly referencing stock photos on the Xamarin web site -- have been normalized.
 
 - The `Toolkit.Init` method in `Xamarin.FormsBook.Toolkit` is called from the `App` constructor in all programs that refererence something from the library from the XAML file but not from code. This is to ensure that the linker binds the toolkit library to the app. Formerly, these programs instantiated something in the library from the `App` constructor or the page constructor.
+
+- A similar `Library.Init` method has been added to the `ElPasoHighSchool` library to serve the same purpose.

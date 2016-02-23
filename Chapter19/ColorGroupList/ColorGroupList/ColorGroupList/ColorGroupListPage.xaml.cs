@@ -8,9 +8,6 @@ namespace ColorGroupList
     {
         public ColorGroupListPage()
         {
-            // Ensure link to Toolkit library.
-            IEnumerable colorGroup = Xamarin.FormsBook.Toolkit.NamedColorGroup.All; 
-
             InitializeComponent();
         }
     }

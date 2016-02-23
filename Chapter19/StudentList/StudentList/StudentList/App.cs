@@ -7,6 +7,8 @@ namespace StudentList
     {
         public App()
         {
+            ElPasoHighSchool.Library.Init();
+
             MainPage = new StudentListPage();
         }
 

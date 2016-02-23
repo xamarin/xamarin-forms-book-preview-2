@@ -7,9 +7,6 @@ namespace ColorCodedStudents
     {
         public ColorCodedStudentsPage()
         {
-            // Ensure links to libraries.
-            new ElPasoHighSchool.SchoolViewModel();
-
             InitializeComponent();
         }
     }

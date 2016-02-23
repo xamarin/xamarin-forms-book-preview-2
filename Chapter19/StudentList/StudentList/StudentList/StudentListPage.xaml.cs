@@ -12,9 +12,6 @@ namespace StudentList
     {
         public StudentListPage()
         {
-            // Ensure link to library.
-            new ElPasoHighSchool.SchoolViewModel();
-
             InitializeComponent();
         }
     }

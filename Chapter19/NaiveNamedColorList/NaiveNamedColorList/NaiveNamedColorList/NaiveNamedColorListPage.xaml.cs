@@ -7,9 +7,6 @@ namespace NaiveNamedColorList
     {
         public NaiveNamedColorListPage()
         {
-            // Ensure link to library.
-            Color color = Xamarin.FormsBook.Toolkit.NamedColor.AliceBlue;
-
             InitializeComponent();
         }
     }

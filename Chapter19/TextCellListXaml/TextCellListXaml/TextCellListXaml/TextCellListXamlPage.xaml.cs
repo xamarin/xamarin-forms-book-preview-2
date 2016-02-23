@@ -12,9 +12,6 @@ namespace TextCellListXaml
     {
         public TextCellListXamlPage()
         {
-            // Ensure link to Toolkit library.
-            Color color = Xamarin.FormsBook.Toolkit.NamedColor.AliceBlue;
-
             InitializeComponent();
         }
     }

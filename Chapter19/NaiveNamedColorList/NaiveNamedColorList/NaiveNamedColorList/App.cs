@@ -7,6 +7,8 @@ namespace NaiveNamedColorList
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new NaiveNamedColorListPage();
         }
 

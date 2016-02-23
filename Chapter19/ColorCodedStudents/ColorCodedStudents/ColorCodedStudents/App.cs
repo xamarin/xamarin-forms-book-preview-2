@@ -8,6 +8,7 @@ namespace ColorCodedStudents
         public App()
         {
             Xamarin.FormsBook.Toolkit.Toolkit.Init();
+            ElPasoHighSchool.Library.Init();
 
             MainPage = new ColorCodedStudentsPage();
         }
