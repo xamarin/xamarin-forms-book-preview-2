@@ -12,9 +12,6 @@ namespace ListViewHeader
     {
         public ListViewHeaderPage()
         {
-            // Ensure link to library.
-            new ElPasoHighSchool.SchoolViewModel();
-
             InitializeComponent();
         }
     }

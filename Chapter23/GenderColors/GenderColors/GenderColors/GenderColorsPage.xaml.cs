@@ -12,9 +12,6 @@ namespace GenderColors
     {
         public GenderColorsPage()
         {
-            // Ensure link to ElPasoHighSchool library.
-            new ElPasoHighSchool.SchoolViewModel();
-
             InitializeComponent();
         }
     }

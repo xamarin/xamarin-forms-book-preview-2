@@ -7,6 +7,8 @@ namespace CellContextMenu
     {
         public App()
         {
+            ElPasoHighSchool.Library.Init();
+ 
             MainPage = new CellContextMenuPage();
         }
 

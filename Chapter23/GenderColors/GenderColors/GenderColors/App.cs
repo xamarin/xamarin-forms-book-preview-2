@@ -11,6 +11,8 @@ namespace GenderColors
     {
         public App()
         {
+            ElPasoHighSchool.Library.Init();
+
             MainPage = new GenderColorsPage();
         }
 

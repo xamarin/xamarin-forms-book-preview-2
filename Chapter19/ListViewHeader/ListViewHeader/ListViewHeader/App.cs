@@ -7,6 +7,8 @@ namespace ListViewHeader
     {
         public App()
         {
+            ElPasoHighSchool.Library.Init();
+
             MainPage = new ListViewHeaderPage();
         }
 

@@ -12,9 +12,6 @@ namespace CellContextMenu
     {
         public CellContextMenuPage()
         {
-            // Ensure link to library.
-            new ElPasoHighSchool.SchoolViewModel();
-
             InitializeComponent();
         }
     }
