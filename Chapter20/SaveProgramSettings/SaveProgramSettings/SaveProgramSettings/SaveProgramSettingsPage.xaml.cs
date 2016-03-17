@@ -24,7 +24,6 @@ namespace SaveProgramSettings
                 if (properties.ContainsKey(key))
                     switcher.IsToggled = (bool)(properties[key]);
             }
-
             isInitialized = true;
         }
 

@@ -17,12 +17,14 @@
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:ImagePage}" />
                 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.BoxView.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.BoxView.png}"
                            Text="Display a block"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:BoxViewPage}" />
                 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.WebView.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.WebView.png}"
                            Text="Display a web site"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:WebViewPage}" />
@@ -34,7 +36,8 @@
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:ButtonPage}" />
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.SearchBar.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.SearchBar.png}"
                            Text="Initiate a text search"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:SearchBarPage}" />
@@ -46,7 +49,8 @@
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:SliderPage}" />
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.Stepper.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.Stepper.png}"
                            Text="Discrete doubles"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:StepperPage}" />
@@ -56,12 +60,14 @@
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:SwitchPage}" />
                 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.DatePicker.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.DatePicker.png}"
                            Text="Select a date"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:DatePickerPage}" />
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.TimePicker.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.TimePicker.png}"
                            Text="Select a time"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:TimePickerPage}" />
@@ -80,12 +86,14 @@
             </TableSection>
 
             <TableSection Title="Activity Indicator Views">
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.ActivityIndicator.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.ActivityIndicator.png}"
                            Text="Show activity"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:ActivityIndicatorPage}" />
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.ProgressBar.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.ProgressBar.png}"
                            Text="Show progress"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:ProgressBarPage}" />
@@ -97,12 +105,14 @@
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:PickerPage}" />
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.ListView.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.ListView.png}"
                            Text="Show a collection"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:ListViewPage}" />
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryType.Images.TableView.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryType.Images.TableView.png}"
                            Text="Show form or menu"
                            Command="{Binding NavigateCommand}"
                            CommandParameter="{x:Type local:TableViewPage}" />

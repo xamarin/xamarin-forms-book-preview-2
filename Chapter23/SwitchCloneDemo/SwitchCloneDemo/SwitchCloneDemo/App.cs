@@ -7,6 +7,8 @@ namespace SwitchCloneDemo
     {
         public App()
         {
+            Xamarin.FormsBook.Toolkit.Toolkit.Init();
+
             MainPage = new SwitchCloneDemoPage();
         }
 

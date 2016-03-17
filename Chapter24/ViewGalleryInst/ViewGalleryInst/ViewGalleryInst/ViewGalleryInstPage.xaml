@@ -23,7 +23,8 @@
                     </ImageCell.CommandParameter>
                 </ImageCell>
                 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.BoxView.png}" 
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.BoxView.png}" 
                            Text="Display a block"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>
@@ -31,7 +32,8 @@
                     </ImageCell.CommandParameter>
                 </ImageCell>
                 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.WebView.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.WebView.png}"
                            Text="Display a web site"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>
@@ -49,7 +51,8 @@
                     </ImageCell.CommandParameter>
                 </ImageCell>
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.SearchBar.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.SearchBar.png}"
                            Text="Initiate a text search"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>
@@ -67,7 +70,8 @@
                     </ImageCell.CommandParameter>
                 </ImageCell>
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.Stepper.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.Stepper.png}"
                            Text="Discrete doubles"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>
@@ -83,7 +87,8 @@
                     </ImageCell.CommandParameter>
                 </ImageCell>
                 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.DatePicker.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.DatePicker.png}"
                            Text="Select a date"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>
@@ -91,7 +96,8 @@
                     </ImageCell.CommandParameter>
                 </ImageCell>
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.TimePicker.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.TimePicker.png}"
                            Text="Select a time"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>
@@ -119,7 +125,8 @@
             </TableSection>
 
             <TableSection Title="Activity Indicator Views">
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.ActivityIndicator.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.ActivityIndicator.png}"
                            Text="Show activity"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>
@@ -127,7 +134,8 @@
                     </ImageCell.CommandParameter>
                 </ImageCell>
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.ProgressBar.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.ProgressBar.png}"
                            Text="Show progress"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>
@@ -145,7 +153,8 @@
                     </ImageCell.CommandParameter>
                 </ImageCell>
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.ListView.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.ListView.png}"
                            Text="Show a collection"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>
@@ -153,7 +162,8 @@
                     </ImageCell.CommandParameter>
                 </ImageCell>
 
-                <ImageCell ImageSource="{local:ImageResource ViewGalleryInst.Images.TableView.png}"
+                <ImageCell ImageSource=
+                           "{local:ImageResource ViewGalleryInst.Images.TableView.png}"
                            Text="Show form or menu"
                            Command="{Binding NavigateCommand}">
                     <ImageCell.CommandParameter>

@@ -102,7 +102,8 @@ namespace Xamarin.FormsBook.Toolkit
                 if (page is NavigationPage)
                     continue;
 
-                pageStack.AppendFormat("{0} {1} {2}", page.GetType().ToString(), index, isModal);
+                pageStack.AppendFormat("{0} {1} {2}", page.GetType().ToString(), 
+                                                      index, isModal);
                 pageStack.AppendLine();
 
                 if (page is IPersistantPage)
