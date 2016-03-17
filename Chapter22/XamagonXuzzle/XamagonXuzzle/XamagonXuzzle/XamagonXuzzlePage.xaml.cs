@@ -33,7 +33,8 @@ namespace XamagonXuzzle
 
                     // Get the bitmap for each tile and instantiate it.
                     ImageSource imageSource = 
-                        ImageSource.FromResource("XamagonXuzzle.Images.Bitmap" + row + col + ".png");
+                        ImageSource.FromResource("XamagonXuzzle.Images.Bitmap" + 
+                                                 row + col + ".png");
 
                     XamagonXuzzleTile tile = new XamagonXuzzleTile(row, col, imageSource);
 

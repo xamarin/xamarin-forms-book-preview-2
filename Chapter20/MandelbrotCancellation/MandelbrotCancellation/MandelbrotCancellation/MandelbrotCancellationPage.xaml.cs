@@ -90,7 +90,8 @@ namespace MandelbrotCancellation
                             isMandelbrotSet = true;
                         }
                         // http://www.reenigne.org/blog/algorithm-for-mandelbrot-cardioid/
-                        else if (c.MagnitudeSquared * (8 * c.MagnitudeSquared - 3) < 3.0 / 32 - c.Real)
+                        else if (c.MagnitudeSquared * (8 * c.MagnitudeSquared - 3) < 
+                                                                       3.0 / 32 - c.Real)
                         {
                             isMandelbrotSet = true;
                         }

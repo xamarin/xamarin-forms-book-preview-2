@@ -168,9 +168,12 @@ namespace MandelbrotXF
             double yBottom = yCenter + boxSize / 2;
 
             // Set all the layout bounds.
-            SetLayoutBounds(realCrossHair, new Rectangle(xCenter, yTop, 0, boxSize), layoutSize);
-            SetLayoutBounds(imagCrossHair, new Rectangle(xLeft, yCenter, boxSize, 0), layoutSize);
-
+            SetLayoutBounds(realCrossHair, 
+                            new Rectangle(xCenter, yTop, 0, boxSize), 
+                            layoutSize);
+            SetLayoutBounds(imagCrossHair, 
+                            new Rectangle(xLeft, yCenter, boxSize, 0), 
+                            layoutSize);
             SetLayoutBounds(topBox, new Rectangle(xLeft, yTop, boxSize, 0), layoutSize);
             SetLayoutBounds(bottomBox, new Rectangle(xLeft, yBottom, boxSize, 0), layoutSize);
             SetLayoutBounds(leftBox, new Rectangle(xLeft, yTop, 0, boxSize), layoutSize);
