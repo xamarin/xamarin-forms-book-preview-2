@@ -108,7 +108,8 @@ namespace ConcurrentAnimations
 
         void OnButton5Clicked(object sender, EventArgs args)
         {
-            Animation animation = new Animation(v => dotLabel.Text = new string('.', (int)v), 0, 10);
+            Animation animation = 
+                        new Animation(v => dotLabel.Text = new string('.', (int)v), 0, 10);
             animation.Commit(this, "Animation5", 16, 3000, null, 
                              (v, cancelled) => dotLabel.Text = "",
                              () => keepAnimation5Running);

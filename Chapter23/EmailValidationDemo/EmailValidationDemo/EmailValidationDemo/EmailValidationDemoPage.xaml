@@ -9,7 +9,7 @@
 
     <StackLayout>
         <StackLayout Orientation="Horizontal">
-           <Entry Placeholder="Enter email address"
+            <Entry Placeholder="Enter email address"
                   HorizontalOptions="FillAndExpand">
                 <Entry.Behaviors>
                     <toolkit:ValidEmailBehavior x:Name="validEmail" />

@@ -28,7 +28,7 @@ namespace BezierLoop
             // Center of Button in upper-right corner.
             Point point3 = new Point(parent.Width - button.Width / 2, button.Height / 2);
 
-            // Initial angle of Bezier curve (vector from Point0 to Point1)
+            // Initial angle of Bezier curve (vector from Point0 to Point1).
             double angle = 180 / Math.PI * Math.Atan2(point1.Y - point0.Y,
                                                       point1.X - point0.X);
 

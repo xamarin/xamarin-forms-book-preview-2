@@ -53,7 +53,7 @@ namespace DataTransfer1
             {
                 homePage = navStack[lastIndex - 1] as DataTransfer1HomePage;
             }
-            // Transfer Information object to DataTransfer1HomePage;
+            // Transfer Information object to DataTransfer1HomePage.
             homePage.InformationReady(info);
         }
     }
